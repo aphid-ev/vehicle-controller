@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "aphid-vehicle-controller")(type "KiCad")(uri "${KIPRJMOD}/aphid-vehicle-controller.kicad_sym")(options "")(descr ""))
+)
