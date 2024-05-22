@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "common",
+    "main-app",
+    "main-boot",
+    "monitor-app", 
+    "monitor-boot"
+]
