@@ -5,89 +5,9 @@
 	(uuid "1bdad060-e59b-443f-afdb-9aa678a43546")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 176.53 35.56) (xy 185.42 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "118c2f06-4934-4563-bfa1-baa1cdfade50")
-	)
-	(wire
-		(pts
-			(xy 223.52 35.56) (xy 232.41 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e68cea3-fa4f-4171-95f1-6abc8a6568e0")
-	)
-	(wire
-		(pts
-			(xy 223.52 41.91) (xy 232.41 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f7f129c-33e8-4e08-ac38-392c18fafc57")
-	)
-	(wire
-		(pts
-			(xy 176.53 38.1) (xy 185.42 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e31e81-f703-432b-af91-2f22fac697fb")
-	)
-	(wire
-		(pts
-			(xy 176.53 44.45) (xy 185.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5fbca63-22bc-4852-bc3b-a33180cd12fc")
-	)
-	(wire
-		(pts
-			(xy 223.52 38.1) (xy 232.41 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d015fac4-05bd-442d-9d6a-2ae3a5befcc4")
-	)
-	(wire
-		(pts
-			(xy 223.52 44.45) (xy 232.41 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b4a063-f285-41bb-8d7d-1d652cb8b38f")
-	)
-	(wire
-		(pts
-			(xy 176.53 41.91) (xy 185.42 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9ce6b2-2db6-4cf6-9808-b89c718de754")
-	)
 	(sheet
 		(at 185.42 33.02)
-		(size 38.1 13.97)
+		(size 38.1 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -107,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 185.42 47.5746 0)
+			(at 185.42 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,6 +115,26 @@
 			)
 			(uuid "ec8e2761-2933-48e5-8add-6fc2d1b5826c")
 		)
+		(pin "CAN1_MONITOR_RX" output
+			(at 185.42 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d6e39a0-8ccc-4096-99ce-6eb0fb94db97")
+		)
+		(pin "CAN1_MONITOR_TX" input
+			(at 185.42 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bdac98a3-c4ed-4f5e-899f-03ca34e37c3d")
+		)
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
@@ -204,8 +144,76 @@
 		)
 	)
 	(sheet
+		(at 185.42 82.55)
+		(size 38.1 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d287df9-d378-446a-9a45-9deed77b9c83")
+		(property "Sheetname" "Digital"
+			(at 185.42 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital.kicad_sch"
+			(at 185.42 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HIGH_SIDE_DRIVE" output
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf0e4e87-3900-40d1-bd0c-d55ee6573986")
+		)
+		(pin "HIGH_SIDE_SENSE" output
+			(at 185.42 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afed547e-0bc3-44cf-87f1-2cae3d00a079")
+		)
+		(pin "HIGH_SIDE_ENABLE" output
+			(at 185.42 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "871e6067-d2de-4736-aec5-78bb9a97a836")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 105.41 33.02)
-		(size 71.12 121.92)
+		(size 71.12 66.04)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -225,7 +233,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 105.41 155.5246 0)
+			(at 105.41 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,6 +281,36 @@
 			)
 			(uuid "52f007f0-a900-411e-9e53-92dadadf9f53")
 		)
+		(pin "LOWER_CONTACTOR_ENABLE" output
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b43aa80-9c72-4d1c-87c5-ca68835ef079")
+		)
+		(pin "PRECHARGE_ENABLE" output
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4221b9e-7091-4bb2-bdd7-8de5cbdc3a71")
+		)
+		(pin "UPPER_CONTACTOR_ENABLE" output
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "53cb7dd2-459b-420c-8682-f68ba35d806b")
+		)
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
@@ -283,7 +321,7 @@
 	)
 	(sheet
 		(at 45.72 33.02)
-		(size 46.99 31.75)
+		(size 39.37 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -303,7 +341,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 45.72 65.3546 0)
+			(at 45.72 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,6 +359,16 @@
 			)
 			(uuid "53e7c64b-b3d0-424a-96c8-c4c2e6f9a10c")
 		)
+		(pin "VIN_SENSE" output
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b094d4a6-f448-48e1-9f60-23f2f0d43c95")
+		)
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
@@ -330,8 +378,8 @@
 		)
 	)
 	(sheet
-		(at 232.41 33.02)
-		(size 38.1 86.36)
+		(at 232.41 25.4)
+		(size 38.1 93.98)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -342,7 +390,7 @@
 		)
 		(uuid "ad52b18e-06fb-41b6-9fa9-858fb103ce03")
 		(property "Sheetname" "Connectors"
-			(at 232.41 32.3084 0)
+			(at 232.41 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,12 +438,12 @@
 			(uuid "32585c57-90c0-48fa-b020-50269337162d")
 		)
 		(pin "VIN" output
-			(at 270.51 35.56 0)
+			(at 232.41 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "c7646610-114b-4390-9513-b4722e94cf98")
 		)
@@ -409,10 +457,226 @@
 			)
 			(uuid "4d37ef47-0101-43d4-a9fc-49e7493766ad")
 		)
+		(pin "ACC1" output
+			(at 232.41 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f34f5453-a862-403a-835f-e219b6418e84")
+		)
+		(pin "ACC2" output
+			(at 232.41 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc006670-6ad9-4c22-9739-60d71b553fc2")
+		)
+		(pin "BRAKE" output
+			(at 232.41 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b41dba5-dc9c-4aa4-b0b6-ca9d6ebc5ca1")
+		)
+		(pin "PRECHARGE" input
+			(at 232.41 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3d673d1-0632-44a5-b0e6-4cb7be0202b9")
+		)
+		(pin "CONTACTOR_UPPER" input
+			(at 232.41 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de3c2072-2ab4-4b75-a787-c0bd84aed0d0")
+		)
+		(pin "HIGH_SIDE_DRIVE" input
+			(at 232.41 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22218545-a346-443d-88c2-e218c7d30552")
+		)
+		(pin "CONTACTOR_LOWER" input
+			(at 232.41 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf33a75b-8f9d-4a8e-8f6c-1c0ca5a78e4f")
+		)
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 118.11)
+		(size 71.12 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de3f6686-136b-4e72-913e-b14f46f4b1e0")
+		(property "Sheetname" "Monitor"
+			(at 105.41 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "monitor.kicad_sch"
+			(at 105.41 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HIGH_SIDE_ENABLE" input
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c52b47fe-ab99-49a8-ae68-bc53fbe2cfa3")
+		)
+		(pin "CAN1_MONITOR_RX" input
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "228d4000-8495-4199-af6e-327942c540f9")
+		)
+		(pin "CAN1_MONITOR_TX" output
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1578536-6dbf-493a-9dc1-cb6e855bff94")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 62.23)
+		(size 38.1 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f79f1a8c-3c84-4b1a-ba21-3536d6ae0676")
+		(property "Sheetname" "Analog"
+			(at 185.42 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 185.42 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACC1_FILTERED" output
+			(at 185.42 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "000c7616-c976-4816-9724-0e85aef46c37")
+		)
+		(pin "ACC2_FILTERED" output
+			(at 185.42 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b603b270-82a1-479a-b7d7-4a1e41ed814c")
+		)
+		(pin "ACC1" input
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04b6f0c4-d77f-47f8-9757-4f792abc5bd5")
+		)
+		(pin "ACC2" input
+			(at 223.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f000d0a-c6e0-49a8-9239-6149e104ad24")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
+					(page "7")
 				)
 			)
 		)

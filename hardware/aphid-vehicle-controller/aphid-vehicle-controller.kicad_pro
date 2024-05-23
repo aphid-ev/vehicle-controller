@@ -604,6 +604,18 @@
     [
       "0e4d64b0-bbfe-4bfe-a5a9-80bf6f07c4ac",
       "CAN"
+    ],
+    [
+      "de3f6686-136b-4e72-913e-b14f46f4b1e0",
+      "Monitor"
+    ],
+    [
+      "f79f1a8c-3c84-4b1a-ba21-3536d6ae0676",
+      "Analog"
+    ],
+    [
+      "3d287df9-d378-446a-9a45-9deed77b9c83",
+      "Digital"
     ]
   ],
   "text_variables": {}

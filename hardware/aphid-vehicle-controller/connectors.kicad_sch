@@ -619,13 +619,43 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 109.22) (xy 201.93 109.22)
+			(xy 201.93 77.47) (xy 201.93 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2efd3ad6-ce11-48b2-9c81-1569a4e3535e")
+		(uuid "059161d5-4306-4ac8-bfd5-ac0f5827179d")
+	)
+	(wire
+		(pts
+			(xy 186.69 64.77) (xy 189.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f8fdea-f79e-4868-87c7-dce2d778494c")
+	)
+	(wire
+		(pts
+			(xy 199.39 67.31) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2985f8f0-0653-4f51-be3c-4e945b666fee")
+	)
+	(wire
+		(pts
+			(xy 199.39 69.85) (xy 201.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c250b5f-d41d-40c5-a7b2-b646c297e4f0")
 	)
 	(wire
 		(pts
@@ -636,6 +666,56 @@
 			(type default)
 		)
 		(uuid "3d1272d0-9e50-4691-933a-2490d66f5cbb")
+	)
+	(wire
+		(pts
+			(xy 186.69 72.39) (xy 189.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2d2cfd-0e57-432e-a8b1-eaf6f9e1b347")
+	)
+	(wire
+		(pts
+			(xy 186.69 67.31) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9ef3c3-5013-4b34-b3a1-17c24949f17e")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79764d81-ad53-448d-a43f-258b1412169e")
+	)
+	(wire
+		(pts
+			(xy 199.39 64.77) (xy 201.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797fd1f7-0d1a-41c3-ae28-c6735a364a8f")
+	)
+	(wire
+		(pts
+			(xy 186.69 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86104092-a5e4-48a3-96d0-c211ff6a0b63")
 	)
 	(wire
 		(pts
@@ -656,6 +736,16 @@
 			(type default)
 		)
 		(uuid "b9ddf565-16b9-48f6-8307-73ffcb05c91f")
+	)
+	(wire
+		(pts
+			(xy 199.39 72.39) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff9caa8-6530-4966-96c8-f9899583e120")
 	)
 	(wire
 		(pts
@@ -689,25 +779,25 @@
 	)
 	(hierarchical_label "CAN2_HIGH"
 		(shape bidirectional)
-		(at 201.93 109.22 0)
+		(at 186.69 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5e1737d7-7d82-4542-9e99-25f6c5d5ce1a")
 	)
 	(hierarchical_label "CAN1_HIGH"
 		(shape bidirectional)
-		(at 201.93 74.93 0)
+		(at 186.69 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6d089d1a-350f-484a-b709-f9874a75dab8")
 	)
@@ -723,9 +813,21 @@
 		)
 		(uuid "786badba-bf5a-4674-8af7-269ef10082ec")
 	)
+	(hierarchical_label "BRAKE"
+		(shape output)
+		(at 186.69 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81ff2b08-5798-46d8-9004-14bddfc36eac")
+	)
 	(hierarchical_label "CAN2_LOW"
 		(shape bidirectional)
-		(at 186.69 109.22 180)
+		(at 186.69 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -735,9 +837,69 @@
 		)
 		(uuid "874146b7-78e4-4e41-a1c7-d07d025e3e7e")
 	)
+	(hierarchical_label "CONTACTOR_UPPER"
+		(shape input)
+		(at 201.93 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "876ad37b-7e96-4357-8588-0a24b6f8d5dd")
+	)
+	(hierarchical_label "PRECHARGE"
+		(shape input)
+		(at 201.93 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89a56093-1ad6-4b03-99fe-bb00bd33b329")
+	)
+	(hierarchical_label "ACC1"
+		(shape output)
+		(at 186.69 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91371645-b35c-46e5-a869-f35cb7483270")
+	)
+	(hierarchical_label "CONTACTOR_LOWER"
+		(shape input)
+		(at 201.93 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d298a60-f8d5-49a9-a413-c880c05bd782")
+	)
+	(hierarchical_label "HIGH_SIDE_DRIVE"
+		(shape input)
+		(at 201.93 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da67acd6-3a53-4949-8af3-de30b8517317")
+	)
 	(hierarchical_label "VIN"
 		(shape output)
-		(at 201.93 77.47 0)
+		(at 201.93 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -746,6 +908,84 @@
 			(justify left)
 		)
 		(uuid "e06f5286-93fc-4253-b557-0990c192350a")
+	)
+	(hierarchical_label "ACC2"
+		(shape output)
+		(at 186.69 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7c68808-7f67-48c4-91ab-67654ceb9d7a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15475f11-b41f-44b5-9479-753aa40f655b")
+		(property "Reference" "#PWR044"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbd99b0-8bb1-403d-a33b-4440f0fc0c11")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "aphid-vehicle-controller:ModICE_ME-MX_24")
@@ -1001,76 +1241,76 @@
 			)
 		)
 		(pin "18"
-			(uuid "53cce8c2-fd08-4f15-bd1b-d3bd02bb902c")
+			(uuid "53cce8c2-fd08-4f15-bd1b-d3bd02bb902d")
 		)
 		(pin "17"
-			(uuid "7fcee6b9-cdc2-4087-91d9-12a3e8369ea0")
+			(uuid "7fcee6b9-cdc2-4087-91d9-12a3e8369ea1")
 		)
 		(pin "23"
-			(uuid "f8deef6d-fba2-49f6-8500-a5f12b8fe38f")
+			(uuid "f8deef6d-fba2-49f6-8500-a5f12b8fe390")
 		)
 		(pin "10"
-			(uuid "ba330909-4683-4d9f-873b-613c522c33b0")
+			(uuid "ba330909-4683-4d9f-873b-613c522c33b1")
 		)
 		(pin "14"
-			(uuid "eb1de7bc-fdb9-40d3-bb4c-dfb0a201502f")
+			(uuid "eb1de7bc-fdb9-40d3-bb4c-dfb0a2015030")
 		)
 		(pin "8"
-			(uuid "6eb642dd-c82d-4a46-90f0-cca72f290694")
+			(uuid "6eb642dd-c82d-4a46-90f0-cca72f290695")
 		)
 		(pin "3"
-			(uuid "15660459-01c3-48ef-a57b-f9eb828820c2")
+			(uuid "15660459-01c3-48ef-a57b-f9eb828820c3")
 		)
 		(pin "4"
-			(uuid "ccafd561-fca5-4937-bb38-f4613db05d8b")
+			(uuid "ccafd561-fca5-4937-bb38-f4613db05d8c")
 		)
 		(pin "12"
-			(uuid "b95877dc-b4ee-4c01-a0bc-13ad8bdbba58")
+			(uuid "b95877dc-b4ee-4c01-a0bc-13ad8bdbba59")
 		)
 		(pin "11"
-			(uuid "ef513a4a-07ca-4fe6-9566-fb6a2b1534dd")
+			(uuid "ef513a4a-07ca-4fe6-9566-fb6a2b1534de")
 		)
 		(pin "6"
-			(uuid "a575ecf0-5b15-4d4f-ab74-b78bbacf30b6")
+			(uuid "a575ecf0-5b15-4d4f-ab74-b78bbacf30b7")
 		)
 		(pin "1"
-			(uuid "36805793-6df8-40b3-ac42-ebf2a5a77876")
+			(uuid "36805793-6df8-40b3-ac42-ebf2a5a77877")
 		)
 		(pin "16"
-			(uuid "5cb569dd-9f2d-4135-867f-5a2b29e5f343")
+			(uuid "5cb569dd-9f2d-4135-867f-5a2b29e5f344")
 		)
 		(pin "5"
-			(uuid "bb455ab8-d505-45b9-9795-435f9714038e")
+			(uuid "bb455ab8-d505-45b9-9795-435f9714038f")
 		)
 		(pin "7"
-			(uuid "7cfb09a2-7ac4-4b73-8789-d37eb5018e9c")
+			(uuid "7cfb09a2-7ac4-4b73-8789-d37eb5018e9d")
 		)
 		(pin "21"
-			(uuid "f88c3363-ac85-448d-b447-238c07d78cb9")
+			(uuid "f88c3363-ac85-448d-b447-238c07d78cba")
 		)
 		(pin "20"
-			(uuid "7c14008a-a98d-413f-a740-d87f4dd02553")
+			(uuid "7c14008a-a98d-413f-a740-d87f4dd02554")
 		)
 		(pin "24"
-			(uuid "67adb6eb-827d-4ba5-9b0a-5d7c91817208")
+			(uuid "67adb6eb-827d-4ba5-9b0a-5d7c91817209")
 		)
 		(pin "13"
-			(uuid "ddffe16f-114e-4ade-a558-49c5434f8182")
+			(uuid "ddffe16f-114e-4ade-a558-49c5434f8183")
 		)
 		(pin "22"
-			(uuid "bfda504b-49c7-45a5-a724-867ba3051cfb")
+			(uuid "bfda504b-49c7-45a5-a724-867ba3051cfc")
 		)
 		(pin "15"
-			(uuid "a8e84454-019e-4e14-b40a-dcb026241b8d")
+			(uuid "a8e84454-019e-4e14-b40a-dcb026241b8e")
 		)
 		(pin "2"
-			(uuid "83b65764-9a38-4087-b8d6-0936d729f227")
+			(uuid "83b65764-9a38-4087-b8d6-0936d729f228")
 		)
 		(pin "19"
-			(uuid "76709886-e985-4892-8cb6-e7ff75dfc968")
+			(uuid "76709886-e985-4892-8cb6-e7ff75dfc969")
 		)
 		(pin "9"
-			(uuid "8ba58928-6bd4-4490-9d05-ce07b762a40e")
+			(uuid "8ba58928-6bd4-4490-9d05-ce07b762a40f")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
