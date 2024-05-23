@@ -9,13 +9,13 @@
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Cargo Build (debug)",
             "runToEntryPoint": "main",
-            "executable": "./target/thumbv6m-none-eabi/debug/monitor-boot",
-            "device": "STM32F091CC",
+            "executable": "./target/thumbv7em-none-eabihf/debug/main-app",
+            "device": "STM32F405RG",
             "configFiles": [
                 "interface/stlink-v2-1.cfg",
-                "target/stm32f0x.cfg"
+                "target/stm32f4x.cfg"
             ],
-            "svdFile": "${workspaceRoot}/.vscode/STM32F0x1.svd",
+            "svdFile": "${workspaceRoot}/.vscode/STM32F405.svd",
             "swoConfig": {
                 "enabled": true,
                 "cpuFrequency": 8000000,
