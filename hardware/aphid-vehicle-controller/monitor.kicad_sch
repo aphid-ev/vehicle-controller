@@ -1945,6 +1945,18 @@
 		)
 		(uuid "845a7b28-2624-4cdd-858e-7da222c13c70")
 	)
+	(hierarchical_label "ENABLE_RESET"
+		(shape output)
+		(at 207.01 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9684092e-df42-4a8a-94f3-929cea9bb592")
+	)
 	(hierarchical_label "HIGH_SIDE_ENABLE"
 		(shape input)
 		(at 214.63 96.52 0)

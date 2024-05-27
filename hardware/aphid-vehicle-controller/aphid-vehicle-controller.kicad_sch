@@ -144,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 82.55)
-		(size 38.1 36.83)
+		(at 185.42 80.01)
+		(size 38.1 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -156,7 +156,7 @@
 		)
 		(uuid "3d287df9-d378-446a-9a45-9deed77b9c83")
 		(property "Sheetname" "Digital"
-			(at 185.42 81.8384 0)
+			(at 185.42 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,7 +165,7 @@
 			)
 		)
 		(property "Sheetfile" "digital.kicad_sch"
-			(at 185.42 119.9646 0)
+			(at 185.42 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +184,7 @@
 			(uuid "bf0e4e87-3900-40d1-bd0c-d55ee6573986")
 		)
 		(pin "HIGH_SIDE_SENSE" output
-			(at 185.42 116.84 180)
+			(at 185.42 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +194,7 @@
 			(uuid "afed547e-0bc3-44cf-87f1-2cae3d00a079")
 		)
 		(pin "HIGH_SIDE_ENABLE" output
-			(at 185.42 114.3 180)
+			(at 185.42 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,10 +203,148 @@
 			)
 			(uuid "871e6067-d2de-4736-aec5-78bb9a97a836")
 		)
+		(pin "IGNITION" input
+			(at 223.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4aca25b2-5bad-47a2-8170-edd8a5f97fd7")
+		)
+		(pin "PRECHARGE" output
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99d64d8a-5898-4bd7-887c-56d71c39d1f3")
+		)
+		(pin "PRECHARGE_ENABLE" input
+			(at 185.42 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc4a513d-eb7f-410d-ac0a-8fd7c481ec81")
+		)
+		(pin "CONTACTOR_LOWER" output
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0d4cd47-79ff-4a49-ad9a-634a6f310e23")
+		)
+		(pin "CONTACTOR_UPPER" output
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bab60168-abd7-43d2-80b8-8bf5e330cf86")
+		)
+		(pin "UPPER_ENABLE" input
+			(at 185.42 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37eefbee-a924-47e1-b4b7-6a535d24d204")
+		)
+		(pin "LOWER_ENABLE" input
+			(at 185.42 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9eed9342-4386-4760-b56f-81d5faf57fd9")
+		)
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 114.3)
+		(size 38.1 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d5505e7-965b-4b41-aec9-80a54b9e19ae")
+		(property "Sheetname" "Reset"
+			(at 185.42 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 185.42 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENABLE_RESET" input
+			(at 185.42 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9877e2e0-0d98-40e9-b7a2-d66afbacf57b")
+		)
+		(pin "CRANK" input
+			(at 223.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9908bc4b-4e28-4b17-b26e-1d19017a5b72")
+		)
+		(pin "NRST" output
+			(at 185.42 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3a854aa-44bb-4461-8343-d55c0b3324e3")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
+					(page "9")
 				)
 			)
 		)
@@ -321,7 +459,7 @@
 	)
 	(sheet
 		(at 45.72 33.02)
-		(size 39.37 5.08)
+		(size 39.37 15.875)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -341,7 +479,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 45.72 38.6846 0)
+			(at 45.72 49.4796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,6 +665,26 @@
 			)
 			(uuid "cf33a75b-8f9d-4a8e-8f6c-1c0ca5a78e4f")
 		)
+		(pin "IGNITION" output
+			(at 232.41 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47e3d42e-59dc-4fa7-a73f-7e74eda4b08b")
+		)
+		(pin "CRANK" output
+			(at 232.41 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f7e4607-8b09-472b-b4af-36bd36759589")
+		)
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
@@ -594,6 +752,36 @@
 				(justify right)
 			)
 			(uuid "b1578536-6dbf-493a-9dc1-cb6e855bff94")
+		)
+		(pin "ACC1_FILTERED" input
+			(at 176.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e645ff12-ffcc-41b9-b928-ea49525dbe5e")
+		)
+		(pin "ACC2_FILTERED" input
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c3792f8-b622-4ea7-80a4-5019d817f6a7")
+		)
+		(pin "ENABLE_RESET" output
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73d6cfe0-b139-498f-adb4-ae8d83149179")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
@@ -672,6 +860,26 @@
 				(justify right)
 			)
 			(uuid "7f000d0a-c6e0-49a8-9239-6149e104ad24")
+		)
+		(pin "IGNITION_FILTERED" output
+			(at 185.42 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b0709f5-a51d-4b68-9087-c4c451e5d4fd")
+		)
+		(pin "IGNITION" input
+			(at 223.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b9729d2-e137-4ba2-92d9-bfb3ad897cd7")
 		)
 		(instances
 			(project "aphid-vehicle-controller"

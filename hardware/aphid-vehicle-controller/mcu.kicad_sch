@@ -2437,6 +2437,18 @@
 		)
 		(uuid "1f850556-d9eb-4042-942b-d47b95c9f8fb")
 	)
+	(hierarchical_label "POWER_KEEPALIVE"
+		(shape output)
+		(at 217.17 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65b86f0c-b170-44ae-a192-54c1373d46f1")
+	)
 	(hierarchical_label "CAN1_TX"
 		(shape output)
 		(at 219.71 69.85 0)
