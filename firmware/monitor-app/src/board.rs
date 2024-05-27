@@ -1,6 +1,9 @@
 use core::convert::Infallible;
 
-use common::monitor_message::{MonitorToMain, MONITOR_MESSAGE_BUFFER_SIZE};
+use common::{
+    ev_can::EvCanFrame,
+    monitor_message::{MonitorToMain, MONITOR_MESSAGE_BUFFER_SIZE},
+};
 use stm32f0xx_hal::{
     can::{
         bxcan::{filter::BankConfig, Can, Data, Frame, Id, StandardId, TransmitStatus},
@@ -17,42 +20,6 @@ use stm32f0xx_hal::{
     rcc::{HSEBypassMode, Rcc},
     serial::Serial,
 };
-
-pub enum EvCanCommand {
-    SetLed(bool),
-}
-
-impl EvCanCommand {
-    fn id(&self) -> Id {
-        match self {
-            EvCanCommand::SetLed(_) => StandardId::new(0x123).unwrap().into(),
-        }
-    }
-
-    fn data(&self) -> Data {
-        match self {
-            EvCanCommand::SetLed(state) => {
-                if *state {
-                    [1u8].into()
-                } else {
-                    [0u8].into()
-                }
-            }
-        }
-    }
-
-    fn from_frame(frame: Frame) -> Result<Self, ()> {
-        if frame.id() == StandardId::new(0x123).unwrap().into() {
-            match frame.data().unwrap()[0] {
-                0 => Ok(EvCanCommand::SetLed(false)),
-                1 => Ok(EvCanCommand::SetLed(true)),
-                _ => Err(()),
-            }
-        } else {
-            Err(())
-        }
-    }
-}
 
 pub struct Board {
     pub led: PA5<Output<PushPull>>,
@@ -121,14 +88,14 @@ impl Board {
         filters.enable_bank(index, mask);
     }
 
-    pub fn ev_can_send(&mut self, command: EvCanCommand) -> nb::Result<TransmitStatus, Infallible> {
-        let tx_frame = Frame::new_data(command.id(), command.data());
-        self.ev_can.transmit(&tx_frame)
+    // TODO: This should not be needed once CAN is in silent mode
+    pub fn ev_can_send(&mut self, frame: EvCanFrame) -> nb::Result<TransmitStatus, Infallible> {
+        self.ev_can.transmit(&frame.into())
     }
 
-    pub fn ev_can_receive(&mut self) -> Option<EvCanCommand> {
+    pub fn ev_can_receive(&mut self) -> Option<EvCanFrame> {
         if let Ok(rx_frame) = self.ev_can.receive() {
-            EvCanCommand::from_frame(rx_frame).ok()
+            Ok(EvCanFrame::try_from(rx_frame).ok()?)
         } else {
             None
         }
@@ -141,5 +108,10 @@ impl Board {
         for b in bytes {
             nb::block!(self.serial.write(b)).unwrap();
         }
+    }
+
+    /// Read the throttle sensor ADC inputs in millivolts
+    pub fn read_throttle_sensors(&self) -> (u16, u16) {
+        (1500, 3500)
     }
 }
