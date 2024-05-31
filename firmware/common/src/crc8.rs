@@ -1,5 +1,12 @@
 
-
+/// `const` function to generate a CRC8 lookuptable at compile time for a given polynomial.
+/// 
+/// # Example
+/// 
+/// ```
+/// use common::crc8::generate_lookup;
+/// const CRC8_LOOKUP: [u8; 256] = generate_lookup(0x07);
+/// ```
 pub const fn generate_lookup(polynomial: u8) -> [u8; 256] {
     let mut table = [0u8; 256];
     let mut i = 0;
@@ -23,7 +30,16 @@ pub const fn generate_lookup(polynomial: u8) -> [u8; 256] {
     table
 }
 
-
+/// Calculates the CRC8 of a byte slice using a pre-calculated lookup table.
+/// 
+/// # Example
+/// ```
+/// use common::crc8::{generate_lookup, calc_crc8};
+/// 
+/// const CRC8_LOOKUP: [u8; 256] = generate_lookup(0x07);
+/// let crc = calc_crc8(&[0x00, 0x11, 0x22], &CRC8_LOOKUP);
+/// assert_eq!(crc, 0xac);
+/// ```
 pub fn calc_crc8(bytes: &[u8], lookup: &[u8; 256]) -> u8 {
     let mut crc  = 0;
 
