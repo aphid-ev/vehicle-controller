@@ -11,7 +11,7 @@
             "runtimeArgs": [
                 "dap-server"
             ],
-            "chip": "STM32F091RCTx",
+            "chip": "STM32G431CBTx",
             "flashingConfig": {
                 "flashingEnabled": true,
                 "haltAfterReset": false,
@@ -19,8 +19,8 @@
             "coreConfigs": [
                 {
                     "coreIndex": 0,
-                    "programBinary": "target/thumbv6m-none-eabi/debug/direction-app",
-                    "svdFile": ".vscode/STM32F0x1.svd",
+                    "programBinary": "target/thumbv7em-none-eabihf/debug/direction-app",
+                    "svdFile": ".vscode/STM32G431.svd",
                     "rttEnabled": true,
                     "rttChannelFormats": [
                         {

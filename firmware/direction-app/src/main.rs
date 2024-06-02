@@ -1,68 +1,126 @@
 #![no_std]
 #![no_main]
 
-use core::sync::atomic::AtomicU32;
-
+use button::ButtonFilter;
+use core::sync::atomic::{AtomicBool, Ordering};
 use defmt::*;
 use embassy_executor::Spawner;
 use embassy_stm32::{
     bind_interrupts,
-    can::{Rx0InterruptHandler, Rx1InterruptHandler, SceInterruptHandler, TxInterruptHandler},
-    exti::ExtiInput,
+    can::{
+        self,
+        filter::{StandardFilter, StandardFilterSlot},
+        Frame, OperatingMode,
+    },
     gpio::{AnyPin, Input, Level, Output, Pin, Pull, Speed},
-    peripherals::CAN,
+    peripherals::FDCAN1,
+    time::Hertz,
+    Config,
 };
 use embassy_time::Timer;
-use portable_atomic::Ordering;
-use {defmt_rtt as _, panic_probe as _};
 
-static BLINK_MS: AtomicU32 = AtomicU32::new(0);
+use defmt_rtt as _;
+use panic_probe as _;
 
-bind_interrupts!(struct Irqs {
-    CEC_CAN => TxInterruptHandler<CAN>;
-    CEC_CAN => Rx0InterruptHandler<CAN>;
-    CEC_CAN => Rx1InterruptHandler<CAN>;
-    CEC_CAN => SceInterruptHandler<CAN>;
-});
+mod button;
+
+static FORWARD: AtomicBool = AtomicBool::new(false);
+static NEUTRAL: AtomicBool = AtomicBool::new(false);
+static REVERSE: AtomicBool = AtomicBool::new(false);
 
 #[embassy_executor::task]
-async fn led_task(led_pin: AnyPin) {
-    info!("Starting LED task");
+async fn button_task(forward_pin: AnyPin, reverse_pin: AnyPin, neutral_pin: AnyPin) {
+    info!("Button task started");
 
-    let mut led = Output::new(led_pin, Level::Low, Speed::Low);
+    let forward_button = Input::new(forward_pin, Pull::Up);
+    let neutral_button = Input::new(neutral_pin, Pull::Up);
+    let reverse_button = Input::new(reverse_pin, Pull::Up);
+
+    let mut forward_filter = ButtonFilter::<3>::new(false);
+    let mut neutral_filter = ButtonFilter::<3>::new(false);
+    let mut reverse_filter = ButtonFilter::<3>::new(false);
 
     loop {
-        led.toggle();
-        let mut delay_ms = BLINK_MS.load(Ordering::Relaxed);
-        Timer::after_millis(delay_ms.into()).await;
-        if delay_ms < 1000 {
-            delay_ms += 100;
-            BLINK_MS.store(delay_ms, Ordering::Relaxed);
-        }
+        FORWARD.store(
+            forward_filter.sample(forward_button.is_low()),
+            Ordering::Relaxed,
+        );
+        NEUTRAL.store(
+            neutral_filter.sample(neutral_button.is_low()),
+            Ordering::Relaxed,
+        );
+        REVERSE.store(
+            reverse_filter.sample(reverse_button.is_low()),
+            Ordering::Relaxed,
+        );
+        Timer::after_millis(10).await;
     }
 }
 
-// main is itself an async function.
+bind_interrupts!(struct Irqs {
+    FDCAN1_IT0 => can::IT0InterruptHandler<FDCAN1>;
+    FDCAN1_IT1 => can::IT1InterruptHandler<FDCAN1>;
+});
+
 #[embassy_executor::main]
 async fn main(spawner: Spawner) {
-    let p = embassy_stm32::init(Default::default());
-    info!("Starting application");
+    let mut config = Config::default();
+    {
+        use embassy_stm32::rcc::*;
+        config.rcc.hse = Some(Hse {
+            freq: Hertz(16_000_000),
+            mode: HseMode::Oscillator,
+        });
+        config.rcc.pll = Some(Pll {
+            source: PllSource::HSE,
+            prediv: PllPreDiv::DIV4,
+            mul: PllMul::MUL85,
+            divp: None,
+            divq: Some(PllQDiv::DIV8), // 42.5 Mhz for fdcan.
+            divr: Some(PllRDiv::DIV2), // Main system clock at 170 MHz
+        });
+        config.rcc.mux.fdcansel = mux::Fdcansel::PLL1_Q;
+        config.rcc.sys = Sysclk::PLL1_R;
+        config.enable_debug_during_sleep = true;
+    }
+    let p = embassy_stm32::init(config);
 
-    let led_pin = p.PA5.degrade();
-    let button_pin = Input::new(p.PC13, Pull::Up);
+    let mut forward_led = Output::new(p.PA0, Level::Low, Speed::Low);
+    let mut neutral_led = Output::new(p.PA1, Level::Low, Speed::Low);
+    let mut reverse_led = Output::new(p.PA2, Level::Low, Speed::Low);
+    let forward_pin = p.PA3.degrade();
+    let neutral_pin = p.PA4.degrade();
+    let reverse_pin = p.PA5.degrade();
 
-    let mut button = ExtiInput::new(button_pin, p.EXTI13);
+    let mut can = can::CanConfigurator::new(p.FDCAN1, p.PB8, p.PB9, Irqs);
+    can.properties().set_standard_filter(
+        StandardFilterSlot::_0,
+        StandardFilter::accept_all_into_fifo0(),
+    );
+    can.set_bitrate(500_000);
+    let mut can = can.start(OperatingMode::NormalOperationMode);
 
-    let mut delay_ms = 1000;
-    BLINK_MS.store(delay_ms, Ordering::Relaxed);
-
-    spawner.spawn(led_task(led_pin)).unwrap();
+    spawner
+        .spawn(button_task(forward_pin, reverse_pin, neutral_pin))
+        .unwrap();
 
     loop {
-        button.wait_for_rising_edge().await;
-        info!("Button pressed");
-        delay_ms = 100;
-        delay_ms /= 0;
-        BLINK_MS.store(delay_ms, Ordering::Relaxed);
+        let forward = FORWARD.load(Ordering::Relaxed);
+        let _neutral = NEUTRAL.load(Ordering::Relaxed);
+        let _reverse = REVERSE.load(Ordering::Relaxed);
+
+        if forward {
+            forward_led.set_high();
+            neutral_led.set_high();
+            reverse_led.set_high();
+            info!("Sending frame");
+            let frame = Frame::new_standard(0x123, &[1u8; 8]).unwrap();
+            can.write(&frame).await;
+        } else {
+            forward_led.set_low();
+            neutral_led.set_low();
+            reverse_led.set_low();
+        }
+        Timer::after_millis(100).await;
     }
 }

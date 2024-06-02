@@ -1,8 +1,8 @@
-[target.thumbv6m-none-eabi]
-runner = 'probe-rs run --chip STM32F091RCTX'
+[target.thumbv7em-none-eabihf]
+runner = 'probe-rs run --chip STM32G431CBTx'
 
 [build]
-target = "thumbv6m-none-eabi"
+target = "thumbv7em-none-eabihf"
 
 [env]
 DEFMT_LOG = "trace"
