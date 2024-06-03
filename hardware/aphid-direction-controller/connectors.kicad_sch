@@ -5,174 +5,6 @@
 	(uuid "a8033aa6-96a5-4ce8-85b5-7086c22b9836")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -403,7 +235,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -1076,6 +908,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 110.49) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863b773e-ca00-442e-849f-f5cba4d46994")
+	)
+	(wire
+		(pts
 			(xy 220.98 115.57) (xy 220.98 120.65)
 		)
 		(stroke
@@ -1126,6 +968,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 110.49) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5948689-0c5b-4234-8aab-4729e440200d")
+	)
+	(wire
+		(pts
 			(xy 163.83 118.11) (xy 173.99 118.11)
 		)
 		(stroke
@@ -1133,6 +985,16 @@
 			(type default)
 		)
 		(uuid "d74896a4-6bd6-40e7-90b1-f968d64d0680")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e43325-7494-48f3-88a8-4fe734193cce")
 	)
 	(wire
 		(pts
@@ -1293,7 +1155,7 @@
 		(uuid "edc83707-227b-47b1-b4af-4a6893f09d21")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 128.27 115.57 0)
 		(mirror x)
 		(unit 1)
@@ -1304,7 +1166,7 @@
 		(fields_autoplaced yes)
 		(uuid "172e2a66-205f-4c40-a2f7-4cb1c00feb1b")
 		(property "Reference" "J1"
-			(at 128.27 106.68 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,14 +1174,14 @@
 			)
 		)
 		(property "Value" "FORWARD"
-			(at 128.27 109.22 0)
+			(at 128.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 128.27 115.57 0)
 			(effects
 				(font
@@ -1337,7 +1199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 128.27 115.57 0)
 			(effects
 				(font
@@ -1354,6 +1216,9 @@
 		)
 		(pin "1"
 			(uuid "20c57820-a2d8-4f35-ac8e-c9f71a26e287")
+		)
+		(pin "4"
+			(uuid "549593d6-4508-48b1-a608-4e660709d136")
 		)
 		(instances
 			(project "aphid-direction-controller"
@@ -1374,7 +1239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f1a424-7f35-4985-9262-e4b3bb8d9a1a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR027"
 			(at 218.44 139.7 0)
 			(effects
 				(font
@@ -1424,7 +1289,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR010")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1440,7 +1305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb91b28-136c-49fd-8aaf-61b74d2dc9e9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 217.17 118.11 0)
 			(effects
 				(font
@@ -1491,7 +1356,74 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR07")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 163.83 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40755251-e3d8-4ffe-9e31-021cdf41fc0d")
+		(property "Reference" "#PWR078"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.02 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df65ae8d-4b32-43b9-962a-272d50d70bdf")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1507,7 +1439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ed8a15-bd53-4383-b6ea-adfd7fa32845")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 224.79 124.4599 0)
 			(effects
 				(font
@@ -1535,7 +1467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 			(at 221.615 122.555 0)
 			(effects
 				(font
@@ -1565,14 +1497,81 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "power:+5V")
+		(at 113.03 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7592c91d-2d8b-4edd-b4f0-3a3071c05ed7")
+		(property "Reference" "#PWR077"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "213e9e63-734e-4403-99d3-df98b7b8b0a4")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 179.07 115.57 0)
 		(mirror x)
 		(unit 1)
@@ -1582,8 +1581,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7656b55a-4ff3-4310-a8f4-fdeec8c07a25")
-		(property "Reference" "J2"
-			(at 179.07 106.68 0)
+		(property "Reference" "J3"
+			(at 179.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,14 +1590,14 @@
 			)
 		)
 		(property "Value" "NEUTRAL"
-			(at 179.07 109.22 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -1616,7 +1615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -1634,10 +1633,13 @@
 		(pin "1"
 			(uuid "e5398ee5-d8f8-4af2-9110-64db1a902d47")
 		)
+		(pin "4"
+			(uuid "f4353809-10c6-40d6-98ad-99d81993f852")
+		)
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1653,7 +1655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78f7e642-e05e-434e-ac42-79f09983b6b3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR023"
 			(at 167.64 118.11 0)
 			(effects
 				(font
@@ -1704,7 +1706,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR06")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86da9792-c2be-4393-8219-84fd6ae7a7b3")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 124.46 124.4599 0)
 			(effects
 				(font
@@ -1748,7 +1750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 			(at 121.285 122.555 0)
 			(effects
 				(font
@@ -1778,7 +1780,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1794,7 +1796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88b2600c-27f1-47ea-baed-1df28ce18292")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR021"
 			(at 116.84 118.11 0)
 			(effects
 				(font
@@ -1845,7 +1847,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR04")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1861,7 +1863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec4a76a-ea35-477b-8ffb-2fa7f10a360d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR025"
 			(at 171.45 76.2 0)
 			(effects
 				(font
@@ -1911,7 +1913,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR05")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1919,17 +1921,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 179.07 64.77 0)
-		(mirror x)
+		(at 179.07 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b99c8a6f-cff2-462a-bfe4-0b5262dcd79d")
-		(property "Reference" "J4"
-			(at 179.07 53.34 0)
+		(property "Reference" "J2"
+			(at 179.07 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,15 +1937,15 @@
 			)
 		)
 		(property "Value" "MAIN"
-			(at 179.07 55.88 0)
+			(at 179.07 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 179.07 64.77 0)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 64.77 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1963,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 64.77 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +1986,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2002,7 +2002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9b063c7-b8f3-4525-b25a-6581afa1cf7e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR024"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -2052,7 +2052,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR011")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2068,7 +2068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc94ccb-5414-4212-90e8-0c18fbd17237")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR022"
 			(at 118.11 139.7 0)
 			(effects
 				(font
@@ -2118,14 +2118,81 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "#PWR012")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "power:+5V")
+		(at 213.36 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9305865-e0f4-4497-bfa3-ec8dccad6f3b")
+		(property "Reference" "#PWR079"
+			(at 217.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "391c2a8f-1f5f-4050-805c-3f3a29f51109")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 228.6 115.57 0)
 		(mirror x)
 		(unit 1)
@@ -2135,8 +2202,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe414405-9566-4d72-adf3-489f056c13c7")
-		(property "Reference" "J3"
-			(at 228.6 106.68 0)
+		(property "Reference" "J4"
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,14 +2211,14 @@
 			)
 		)
 		(property "Value" "REVERSE"
-			(at 228.6 109.22 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 228.6 115.57 0)
 			(effects
 				(font
@@ -2169,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 228.6 115.57 0)
 			(effects
 				(font
@@ -2187,10 +2254,13 @@
 		(pin "1"
 			(uuid "05d2f42f-317b-4f5a-b3c8-064c4fa8b107")
 		)
+		(pin "4"
+			(uuid "dc0dc31c-61fb-4e7d-866a-98fbfa309ab2")
+		)
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2206,7 +2276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffacd0b1-8419-485e-881f-72e6316020b2")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 175.26 124.4599 0)
 			(effects
 				(font
@@ -2234,7 +2304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
 			(at 172.085 122.555 0)
 			(effects
 				(font
@@ -2264,7 +2334,7 @@
 		(instances
 			(project "aphid-direction-controller"
 				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2/92dea365-204f-4f2c-98cd-5d4e5f366727"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
