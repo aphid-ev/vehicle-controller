@@ -1,5 +1,1120 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "08e61dba-ec41-4bf0-9be1-028614d183d2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07929980-09b3-408a-b912-1978199655e5")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2c0426-49ed-45af-aafc-5ada430ac9cf")
+	)
+	(wire
+		(pts
+			(xy 109.22 114.3) (xy 123.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4280c207-0b5f-40d7-91a3-2a6281ee7a02")
+	)
+	(wire
+		(pts
+			(xy 166.37 114.3) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a73886-f6aa-49cc-9b88-8de55490d057")
+	)
+	(wire
+		(pts
+			(xy 166.37 83.82) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588a9496-38c5-43ca-b5c3-cbea4027f3cc")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a494f1c-8b99-446b-8176-4440c044ad48")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fb3f39-71d9-45ea-b3ca-2eff19558a61")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6515a6e4-a962-4833-b6a0-1a58b8884a91")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668c6fb6-4194-4d92-99d7-ee6586471831")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 123.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca9491b-ff40-4869-b84e-5eb342e92980")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8516c4-cd16-451c-832e-e93de668ca6e")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd904c3-6f1c-4145-9998-b32ac9e57edd")
+	)
+	(wire
+		(pts
+			(xy 166.37 116.84) (xy 179.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a028c1a4-3b00-4d6a-93e2-84b5264dc2fa")
+	)
+	(wire
+		(pts
+			(xy 166.37 69.85) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71c7f5c-e27c-4d54-89f6-0e9cc30bc3b8")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 123.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93462c9-7bce-45e8-8fd2-853b47af14be")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72fd214-e029-4df6-b33b-750e8121327d")
+	)
+	(wire
+		(pts
+			(xy 109.22 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9d2f20-7f25-4037-97b4-c92abfdec6f8")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f173593b-cd93-4e9f-b462-190622ee4320")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bf75876-88bd-41f3-97c8-78b783c05e25")
+		(property "Reference" "H3"
+			(at 29.21 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b60e63-846f-42ef-a5fb-acc4a2f0ed19")
+		(property "Reference" "H1"
+			(at 29.21 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 185.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccc720cf-12a0-460b-80de-8f551ef35c2b")
+		(property "Reference" "H4"
+			(at 29.21 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcaf5a6d-8641-4b44-a8b5-5c5f9a495081")
+		(property "Reference" "H2"
+			(at 29.21 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 92.71)
+		(size 43.18 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "429f2f87-2034-4c59-91ea-4f36a70f1d53")
+		(property "Sheetname" "Buttons"
+			(at 123.19 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 123.19 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FORWARD_BUTTON" input
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbf38c83-7335-405d-a368-b83fc5ac8868")
+		)
+		(pin "NEUTRAL_BUTTON" input
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ef789ea-c587-4b98-8ee9-f7ddb6f15de6")
+		)
+		(pin "REVERSE_BUTTON" input
+			(at 166.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebfc14bf-d51c-4921-85f6-21fd19cb9a28")
+		)
+		(pin "NEUTRAL_PUSHED" output
+			(at 123.19 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47fa8b49-c152-449a-8d44-34e447f9bacb")
+		)
+		(pin "FORWARD_PUSHED" output
+			(at 123.19 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e9ebe90-4cfd-49fa-9127-a503f25afdf8")
+		)
+		(pin "REVERSE_PUSHED" output
+			(at 123.19 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e40dfb52-a619-4903-812e-cbcb76d89e64")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 67.31)
+		(size 43.18 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5995436d-d572-44d0-b480-35143bdbea57")
+		(property "Sheetname" "Power"
+			(at 123.19 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 123.19 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea774d67-31dc-4b7a-979a-b757394ba76b")
+		)
+		(pin "VSENSE" output
+			(at 123.19 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "766627c0-b705-4648-9273-7dc48c2f65db")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 67.31)
+		(size 35.56 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92dea365-204f-4f2c-98cd-5d4e5f366727")
+		(property "Sheetname" "Connectors"
+			(at 179.07 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 179.07 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANL" passive
+			(at 179.07 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77c69cf5-2355-49da-9d8b-fda2b628cbc7")
+		)
+		(pin "CANH" passive
+			(at 179.07 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b047cd5-1768-4763-b51d-706d4cc8d15b")
+		)
+		(pin "VIN" output
+			(at 179.07 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31c04ad1-4101-4e51-971e-189ba461e183")
+		)
+		(pin "FORWARD_LED" input
+			(at 179.07 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5e4ca7f-e450-4aba-b60c-e3e877c8cfc5")
+		)
+		(pin "FORWARD_BUTTON" output
+			(at 179.07 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09580aec-ab81-4400-89ba-989e57634ce5")
+		)
+		(pin "NEUTRAL_LED" input
+			(at 179.07 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acdf8acf-1df1-429d-a9c1-8ce682d9f601")
+		)
+		(pin "NEUTRAL_BUTTON" output
+			(at 179.07 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22fc91c7-8c89-4bfd-afd6-ef4047dec099")
+		)
+		(pin "REVERSE_LED" input
+			(at 179.07 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cefcbe3f-6637-4665-a6e4-e33edbd30a92")
+		)
+		(pin "REVERSE_BUTTON" output
+			(at 179.07 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c09a5b7a-bcb1-488a-a5c0-70b82616909c")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 67.31)
+		(size 35.56 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a21f73c4-fb7a-43e1-b9ab-98ec8b36c29b")
+		(property "Sheetname" "MCU"
+			(at 73.66 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 73.66 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NEUTRAL_PUSHED" input
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4694775-a6b7-453e-9044-d1786b253e2c")
+		)
+		(pin "REVERSE_PUSHED" input
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bfd77c0c-2896-4637-8477-c7bfc5d9c0bc")
+		)
+		(pin "FORWARD_LIGHT" output
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a59555cf-c52e-446f-ab41-7a07ce1b10d9")
+		)
+		(pin "NEUTRAL_LIGHT" output
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70860209-3f41-462e-9a1d-2b0d792fb933")
+		)
+		(pin "REVERSE_LIGHT" output
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18a1094e-eb7e-4fcb-b159-edc3c5bd520c")
+		)
+		(pin "VSENSE" input
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4dac6045-e7d6-4dd1-a039-6c93f5fc4c78")
+		)
+		(pin "FORWARD_PUSHED" input
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d00c1b9-4ea1-43ea-8149-5a64caa3100e")
+		)
+		(pin "CAN_RX" input
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca15346a-8ac3-4496-899a-6fe12a64e910")
+		)
+		(pin "CAN_TX" output
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1f23918-cd5d-4256-a76a-b3b204813da1")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 78.74)
+		(size 43.18 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c08ed64c-2d0d-4120-bd88-c312a29aa4b5")
+		(property "Sheetname" "CAN"
+			(at 123.19 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 123.19 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" passive
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c77625df-9dcf-4cbb-a712-af905351eeef")
+		)
+		(pin "CANL" passive
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af612d32-4661-40d4-b28c-542a12252d0f")
+		)
+		(pin "CAN_TX" input
+			(at 123.19 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4cfc584-3ed6-465b-8554-4c523621a4d8")
+		)
+		(pin "CAN_RX" output
+			(at 123.19 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4451278-737b-43b0-9571-646b5e35b4cf")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 109.22)
+		(size 43.18 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7d5e156-c64e-4541-9faa-542d2ea4ca82")
+		(property "Sheetname" "LEDs"
+			(at 123.19 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 123.19 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FORWARD_LED" output
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dfa5f6d3-76d0-4944-9b22-f8af720f3a40")
+		)
+		(pin "NEUTRAL_LED" output
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d9ec8fe-58cc-4f38-a1e9-bf8b1b85bb00")
+		)
+		(pin "REVERSE_LED" output
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd288893-0d2f-4791-9a56-8bb853d5e95c")
+		)
+		(pin "FORWARD_LIGHT" input
+			(at 123.19 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2bac730-c94b-4f39-8522-01ebc9529795")
+		)
+		(pin "NEUTRAL_LIGHT" input
+			(at 123.19 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f4a33ea-bb4f-47bd-a12f-1f0169d44ebf")
+		)
+		(pin "REVERSE_LIGHT" input
+			(at 123.19 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f6b2aee-9601-4b47-ba6f-569aa3df0ffc")
+		)
+		(instances
+			(project "aphid-direction-controller"
+				(path "/08e61dba-ec41-4bf0-9be1-028614d183d2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
