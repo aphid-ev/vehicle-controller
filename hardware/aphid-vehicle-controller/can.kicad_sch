@@ -3406,7 +3406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aphid-vehicle-controller:ACT1210D"
+		(property "Footprint" "aphid:ACT1210D"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aphid-vehicle-controller:ACT1210D"
+		(property "Footprint" "aphid:ACT1210D"
 			(at 201.93 80.01 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "98b5796d-7511-4e4d-8ce0-b3b657e3db07")
 	(paper "A4")
 	(lib_symbols
-		(symbol "aphid-vehicle-controller:ModICE_ME-MX_24"
+		(symbol "aphid:ModICE_ME-MX_24"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1248,7 +1248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aphid-vehicle-controller:ModICE_ME-MX_24")
+		(lib_id "aphid:ModICE_ME-MX_24")
 		(at 194.31 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1448,7 +1448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aphid-vehicle-controller:ModICE_ME-MX_24")
+		(lib_id "aphid:ModICE_ME-MX_24")
 		(at 194.31 105.41 0)
 		(unit 2)
 		(exclude_from_sim no)
