@@ -2059,7 +2059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aphid:DLW43SH"
 			(at 143.51 118.11 0)
 			(effects
 				(font
@@ -2273,7 +2273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 157.48 124.968 90)
 			(effects
 				(font
@@ -2900,7 +2900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aphid:DLW43SH"
 			(at 143.51 62.23 0)
 			(effects
 				(font

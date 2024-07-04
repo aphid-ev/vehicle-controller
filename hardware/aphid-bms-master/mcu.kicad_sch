@@ -3076,7 +3076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aphid:ABM3-x.xxxMHZ-D2Y-T"
 			(at 54.61 81.28 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 49.2252 91.44 0)
 			(effects
 				(font
@@ -3499,7 +3499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
 			(at 45.72 167.64 0)
 			(effects
 				(font
@@ -3605,7 +3605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.9948 91.44 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 41.91 68.58 0)
 			(effects
 				(font
@@ -3809,7 +3809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 35.052 109.22 90)
 			(effects
 				(font
