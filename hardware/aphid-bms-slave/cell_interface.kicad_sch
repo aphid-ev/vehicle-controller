@@ -1,0 +1,548 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fe7377d2-630a-48a5-ac02-93c44678c08f")
+	(paper "A4" portrait)
+	(lib_symbols)
+	(hierarchical_label "CELL11"
+		(shape input)
+		(at 52.07 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0582acca-a9bd-4785-9840-f3d6084eaa73")
+	)
+	(hierarchical_label "SW1"
+		(shape output)
+		(at 153.67 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a2e6200-edaa-4667-9784-e7844f64048b")
+	)
+	(hierarchical_label "C12"
+		(shape output)
+		(at 153.67 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e848598-c76b-45c9-b9bf-83b82a3ff3cb")
+	)
+	(hierarchical_label "SW9"
+		(shape output)
+		(at 153.67 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f633e3c-7d30-4d55-8737-1d1d2dc35137")
+	)
+	(hierarchical_label "C9"
+		(shape output)
+		(at 153.67 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "126dc92e-e02e-40bb-bb0b-b7717fc4cf0a")
+	)
+	(hierarchical_label "C6"
+		(shape output)
+		(at 153.67 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16954ef7-5fe1-4ed9-b92d-d90096be03fb")
+	)
+	(hierarchical_label "CELL10"
+		(shape input)
+		(at 52.07 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18208c25-cd98-46a7-bed4-6be9f283dbd1")
+	)
+	(hierarchical_label "CELL0"
+		(shape input)
+		(at 52.07 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "234a57d2-b649-4d4b-b005-1bf4812d5ca4")
+	)
+	(hierarchical_label "C11"
+		(shape output)
+		(at 153.67 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2628d810-1e60-49f3-b334-8c760ee7450d")
+	)
+	(hierarchical_label "SW14"
+		(shape output)
+		(at 153.67 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34a4fd5b-f265-4f82-8cd5-8fa3d46092f2")
+	)
+	(hierarchical_label "C7"
+		(shape output)
+		(at 153.67 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36007983-6cfa-4591-aa25-97b76379ee1e")
+	)
+	(hierarchical_label "C8"
+		(shape output)
+		(at 153.67 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37439b47-1b18-4c11-bf9d-f164d7310c31")
+	)
+	(hierarchical_label "SW5"
+		(shape output)
+		(at 153.67 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3785a4e3-a94f-4ebc-acec-7854c06a6b87")
+	)
+	(hierarchical_label "CELL7"
+		(shape input)
+		(at 52.07 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "379f62ed-4638-4f87-8ab5-acad094bb7ef")
+	)
+	(hierarchical_label "CELL6"
+		(shape input)
+		(at 52.07 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "460b81d1-4818-4a21-9f05-8641ed9cf33a")
+	)
+	(hierarchical_label "C0"
+		(shape output)
+		(at 153.67 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d708832-4ff4-4f6b-b5c8-962faa416fb5")
+	)
+	(hierarchical_label "SW8"
+		(shape output)
+		(at 153.67 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5126884d-6141-4c8a-8b3d-81ee651fe10e")
+	)
+	(hierarchical_label "C3"
+		(shape output)
+		(at 153.67 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a5f93a7-8009-457b-aafa-2b41745fad81")
+	)
+	(hierarchical_label "CELL2"
+		(shape input)
+		(at 52.07 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ee0576f-cd42-4210-97fa-2d5c3aefc9ed")
+	)
+	(hierarchical_label "CELL14"
+		(shape input)
+		(at 52.07 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6203f403-9813-46da-9e2b-446d49bb2cdc")
+	)
+	(hierarchical_label "CELL8"
+		(shape input)
+		(at 52.07 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6297f0f0-7ded-4a42-9c5b-3a999bc52f77")
+	)
+	(hierarchical_label "SW7"
+		(shape output)
+		(at 153.67 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "663e9ae6-5288-4309-b28d-299c5fb2336d")
+	)
+	(hierarchical_label "CELL3"
+		(shape input)
+		(at 52.07 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67927c61-6c7e-48ff-87f0-6c1d627b76df")
+	)
+	(hierarchical_label "C10"
+		(shape output)
+		(at 153.67 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79311fb7-c251-41e6-8c2a-f458a7119312")
+	)
+	(hierarchical_label "CELL13"
+		(shape input)
+		(at 52.07 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b1367d2-9972-4537-901d-537144017882")
+	)
+	(hierarchical_label "CELL5"
+		(shape input)
+		(at 52.07 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d614775-1dfc-4cf4-bccc-7e3fa31fdeee")
+	)
+	(hierarchical_label "CELL4"
+		(shape input)
+		(at 52.07 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85849b09-5d58-43f8-91fa-efe7d4a3c83c")
+	)
+	(hierarchical_label "C4"
+		(shape output)
+		(at 153.67 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8adb6c0d-2a0d-4eb0-93e4-b3343570a045")
+	)
+	(hierarchical_label "C1"
+		(shape output)
+		(at 153.67 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f1446be-0da8-482d-9982-fdd2bfb04aef")
+	)
+	(hierarchical_label "C2"
+		(shape output)
+		(at 153.67 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f3ff7ba-a21d-423c-97d6-7e24a8879edb")
+	)
+	(hierarchical_label "SW10"
+		(shape output)
+		(at 153.67 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9391bc91-e081-4aa7-a335-b9adb22ddddd")
+	)
+	(hierarchical_label "SW11"
+		(shape output)
+		(at 153.67 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "958d363d-a8ea-4290-baf9-ca0471bc4a17")
+	)
+	(hierarchical_label "C14"
+		(shape output)
+		(at 153.67 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97842a50-2969-467d-ab5d-16d2d001f1ae")
+	)
+	(hierarchical_label "CELL1"
+		(shape input)
+		(at 52.07 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98fafb3d-5501-424e-aaff-2d8faa292229")
+	)
+	(hierarchical_label "CELL9"
+		(shape input)
+		(at 52.07 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c3bb631-6086-446b-9bc7-73aa2593450c")
+	)
+	(hierarchical_label "C13"
+		(shape output)
+		(at 153.67 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a07a175e-df59-43de-badc-ff8f0b518182")
+	)
+	(hierarchical_label "SW13"
+		(shape output)
+		(at 153.67 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a83eaff9-dcf5-48fe-b97b-be5d512e22c0")
+	)
+	(hierarchical_label "SW12"
+		(shape output)
+		(at 153.67 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad1465e8-ad7d-4746-a35d-773009174f68")
+	)
+	(hierarchical_label "SW0"
+		(shape output)
+		(at 153.67 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8e2d6bc-67de-4b03-bd9f-cc3757b3fb28")
+	)
+	(hierarchical_label "SW4"
+		(shape output)
+		(at 153.67 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c98958a3-58ad-41e9-8166-75a7015d36a2")
+	)
+	(hierarchical_label "SW2"
+		(shape output)
+		(at 153.67 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6313421-f19a-4e8a-82f9-88350a80c1e9")
+	)
+	(hierarchical_label "SW6"
+		(shape output)
+		(at 153.67 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6523fc3-54d5-4def-b46e-b6a3004d9a18")
+	)
+	(hierarchical_label "CELL12"
+		(shape input)
+		(at 52.07 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9a6aad8-a8ef-4cdc-9b33-bcc1e2b62ab9")
+	)
+	(hierarchical_label "C5"
+		(shape output)
+		(at 153.67 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9f68499-c9c5-4002-bca0-15d7adbf5fa9")
+	)
+	(hierarchical_label "SW3"
+		(shape output)
+		(at 153.67 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fae5a98e-98e1-4c73-98e4-6e38121204c7")
+	)
+)
