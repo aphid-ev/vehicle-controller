@@ -847,6 +847,30 @@
 		)
 		(uuid "fe27ee4e-2cc9-471a-8112-5343bb7bf43c")
 	)
+	(hierarchical_label "ALERTIN"
+		(shape output)
+		(at 205.74 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "061cb877-71b1-4b1b-9882-ad0913010b5f")
+	)
+	(hierarchical_label "ISO_ALERTOUT"
+		(shape output)
+		(at 238.76 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "170d4c1d-0dba-4f7e-8ccb-2e09c57f4f62")
+	)
 	(hierarchical_label "RXLP"
 		(shape output)
 		(at 96.52 151.13 180)
@@ -895,6 +919,18 @@
 		)
 		(uuid "5538b520-d876-4e5b-813f-cbdc56faa9f0")
 	)
+	(hierarchical_label "ISO_ALERTIN"
+		(shape input)
+		(at 238.76 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57f08376-30c8-473a-bcb6-2b6050002b2f")
+	)
 	(hierarchical_label "TXUP"
 		(shape input)
 		(at 124.46 69.85 180)
@@ -942,6 +978,18 @@
 			(justify right)
 		)
 		(uuid "79f6df92-0e36-4622-ba2a-af62e1563fc9")
+	)
+	(hierarchical_label "ALERTOUT"
+		(shape input)
+		(at 205.74 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8954c1ef-d058-4566-9711-96d50ea80fa4")
 	)
 	(hierarchical_label "ISO_TXLN"
 		(shape output)

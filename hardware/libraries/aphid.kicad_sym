@@ -98,7 +98,7 @@
 				)
 			)
 			(pin power_out line
-				(at 5.08 45.72 270)
+				(at 6.35 45.72 270)
 				(length 2.54)
 				(name "VDDL3"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin power_out line
-				(at 2.54 45.72 270)
+				(at 3.81 45.72 270)
 				(length 2.54)
 				(name "VDDL2"
 					(effects
@@ -458,7 +458,7 @@
 				)
 			)
 			(pin power_out line
-				(at -2.54 45.72 270)
+				(at -1.27 45.72 270)
 				(length 2.54)
 				(name "VAA"
 					(effects
@@ -854,7 +854,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 45.72 270)
+				(at 1.27 45.72 270)
 				(length 2.54)
 				(name "VDDL1"
 					(effects
@@ -1088,7 +1088,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 45.72 270)
+				(at -6.35 45.72 270)
 				(length 2.54)
 				(name "DCIN"
 					(effects
@@ -1142,7 +1142,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 33.02 180)
+				(at -3.81 45.72 270)
 				(length 2.54)
 				(name "HV"
 					(effects

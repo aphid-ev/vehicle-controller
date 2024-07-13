@@ -398,6 +398,10 @@
     [
       "7420e126-c01a-46ba-a44b-0b7a6c91b65f",
       "UART Isolation"
+    ],
+    [
+      "6ad10743-f962-4727-a803-7895515f10ae",
+      "Temp Sensing"
     ]
   ],
   "text_variables": {}
