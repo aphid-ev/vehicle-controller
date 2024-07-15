@@ -2232,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 53.34) (xy 118.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6bc721-0602-4757-9d01-2dde46ed6a19")
+	)
+	(wire
+		(pts
 			(xy 139.7 142.24) (xy 139.7 139.7)
 		)
 		(stroke
@@ -2662,6 +2672,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 36.83) (xy 135.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf93d4d-85e0-4209-8627-b967a2c0a2cc")
+	)
+	(wire
+		(pts
 			(xy 55.88 33.02) (xy 55.88 35.56)
 		)
 		(stroke
@@ -2729,6 +2749,16 @@
 			(type default)
 		)
 		(uuid "bbcc4f21-acfe-466d-a512-6b5505f372e4")
+	)
+	(wire
+		(pts
+			(xy 133.35 36.83) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7320a1-727b-48ad-84b9-0ee6477dd8bd")
 	)
 	(wire
 		(pts
@@ -2931,6 +2961,17 @@
 		)
 		(uuid "0ed91264-ab46-4b96-86e1-f75db971bb9f")
 	)
+	(label "DCIN"
+		(at 133.35 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25b2422a-9f80-47d6-b616-195f22b197c7")
+	)
 	(label "HV"
 		(at 73.66 20.32 180)
 		(fields_autoplaced yes)
@@ -2952,6 +2993,28 @@
 			(justify right bottom)
 		)
 		(uuid "86857853-5635-449f-9648-82cdcabf4fc9")
+	)
+	(label "HV"
+		(at 135.89 36.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae0bc273-96cd-4980-a1e5-d732e1ed9e37")
+	)
+	(label "VBLK"
+		(at 109.22 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f923cff5-3a26-408f-93d6-c221d4f30748")
 	)
 	(hierarchical_label "C0"
 		(shape input)
@@ -3217,18 +3280,6 @@
 		)
 		(uuid "6a39f7bb-582f-42c8-b8d2-49abbe12742a")
 	)
-	(hierarchical_label "SW14"
-		(shape input)
-		(at 43.18 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b52cbcf-6d2c-46ed-9d3d-8fae5ee3b239")
-	)
 	(hierarchical_label "C13"
 		(shape input)
 		(at 115.57 63.5 180)
@@ -3288,18 +3339,6 @@
 			(justify right)
 		)
 		(uuid "90a9a2a4-692e-430f-b8cb-6b4383d25d62")
-	)
-	(hierarchical_label "SW14"
-		(shape input)
-		(at 43.18 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "981c9f51-3c21-4a57-beb3-13d73594b9af")
 	)
 	(hierarchical_label "C3"
 		(shape input)
@@ -3385,6 +3424,18 @@
 		)
 		(uuid "b31c9564-835f-43c3-894e-8ba4925f9649")
 	)
+	(hierarchical_label "CELL_TOP"
+		(shape input)
+		(at 43.18 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6da9e80-c4bb-45b8-83c0-fc4dbf665133")
+	)
 	(hierarchical_label "SW3"
 		(shape input)
 		(at 115.57 111.76 180)
@@ -3408,6 +3459,18 @@
 			(justify right)
 		)
 		(uuid "c0d2e377-1546-450c-9eea-b1c67a90c68b")
+	)
+	(hierarchical_label "CELL_TOP"
+		(shape input)
+		(at 43.18 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c223f605-cdbb-4958-9a12-eff0898adc73")
 	)
 	(hierarchical_label "C14"
 		(shape input)
@@ -3527,7 +3590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdca37c-3eb7-4278-98ac-ee2438442367")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -3577,7 +3640,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3593,7 +3656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2e70c0-5d45-4ca1-b3b2-e2553ecf7b43")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 224.79 43.18 0)
 			(effects
 				(font
@@ -3643,7 +3706,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f44121-db11-4f15-9774-b75a17d3758f")
-		(property "Reference" "C20"
+		(property "Reference" "C4"
 			(at 256.54 29.2099 0)
 			(effects
 				(font
@@ -3677,7 +3740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 34.29 0)
 			(effects
 				(font
@@ -3713,7 +3776,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C20")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3728,7 +3791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1391a3c9-1ab5-4357-a769-2bb66d225def")
-		(property "Reference" "R21"
+		(property "Reference" "R1"
 			(at 62.23 17.78 90)
 			(effects
 				(font
@@ -3744,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 62.23 22.098 90)
 			(effects
 				(font
@@ -3780,7 +3843,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "R21")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13938224-ebe9-46ca-a9a9-3bbf6e55b038")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -3846,7 +3909,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3861,7 +3924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14f7abc9-811f-4cb9-b84e-cd7f8adff1ff")
-		(property "Reference" "R22"
+		(property "Reference" "R3"
 			(at 49.53 55.88 90)
 			(effects
 				(font
@@ -3877,7 +3940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.53 60.198 90)
 			(effects
 				(font
@@ -3913,7 +3976,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "R22")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3929,7 +3992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f18fd7-89b6-4ee9-b89c-e81e8f2d79a4")
-		(property "Reference" "C18"
+		(property "Reference" "C2"
 			(at 228.6 29.2099 0)
 			(effects
 				(font
@@ -3947,7 +4010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 225.7552 34.29 0)
 			(effects
 				(font
@@ -3983,7 +4046,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C18")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3998,7 +4061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d3d33a7-10de-4e88-8192-1966257ae9ec")
-		(property "Reference" "R19"
+		(property "Reference" "R4"
 			(at 180.34 80.01 90)
 			(effects
 				(font
@@ -4014,7 +4077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 180.34 84.328 90)
 			(effects
 				(font
@@ -4050,7 +4113,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "R19")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d5bd927-e91b-482b-8d8b-af8bf3ce4184")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 173.99 63.4999 0)
 			(effects
 				(font
@@ -4084,7 +4147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 68.58 0)
 			(effects
 				(font
@@ -4120,7 +4183,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a66298-d203-4a54-b59b-f0c450353b40")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR07"
 			(at 139.7 44.45 0)
 			(effects
 				(font
@@ -4186,7 +4249,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4202,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27eb758d-d523-4781-a8d1-0e300a28302f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 180.34 53.34 0)
 			(effects
 				(font
@@ -4253,7 +4316,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4269,7 +4332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3907949c-c505-473e-b2eb-0b1db29dc3e7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR05"
 			(at 238.76 43.18 0)
 			(effects
 				(font
@@ -4319,7 +4382,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR021")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570e52d5-f81f-40bb-966d-78d53b97e450")
-		(property "Reference" "C15"
+		(property "Reference" "C5"
 			(at 59.69 38.0999 0)
 			(effects
 				(font
@@ -4353,7 +4416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 56.8452 43.18 0)
 			(effects
 				(font
@@ -4389,7 +4452,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C15")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a26a266-07df-4ef3-b9e8-b464906f24f8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -4455,7 +4518,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d154b13-0cd9-44d5-aa00-79f7082521f8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR02"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -4521,7 +4584,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR018")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e522fb-1f25-4f46-93f3-8edbd172b0cb")
-		(property "Reference" "C19"
+		(property "Reference" "C3"
 			(at 242.57 29.2099 0)
 			(effects
 				(font
@@ -4555,7 +4618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 239.7252 34.29 0)
 			(effects
 				(font
@@ -4591,7 +4654,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C19")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4607,7 +4670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a92d6b-f82b-4244-b3d7-b34e30054bff")
-		(property "Reference" "C14"
+		(property "Reference" "C6"
 			(at 167.64 45.72 90)
 			(effects
 				(font
@@ -4623,7 +4686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 52.3748 0)
 			(effects
 				(font
@@ -4659,7 +4722,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C14")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b53399-d54e-4756-bf41-9445dc62d57d")
-		(property "Reference" "C16"
+		(property "Reference" "C1"
 			(at 59.69 25.3999 0)
 			(effects
 				(font
@@ -4693,7 +4756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 56.8452 30.48 0)
 			(effects
 				(font
@@ -4729,7 +4792,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C16")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f253b89-ba5b-48ee-9242-18526d795078")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 252.73 43.18 0)
 			(effects
 				(font
@@ -5051,7 +5114,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f7c818-1cf2-45b4-ad72-926c77faba2d")
-		(property "Reference" "C17"
+		(property "Reference" "C7"
 			(at 59.69 63.4999 0)
 			(effects
 				(font
@@ -5085,7 +5148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 56.8452 68.58 0)
 			(effects
 				(font
@@ -5121,7 +5184,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "C17")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5137,7 +5200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb81ecdd-e5b3-4650-8957-6be42834292e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR01"
 			(at 224.79 27.94 0)
 			(effects
 				(font
@@ -5187,7 +5250,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR017")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5203,7 +5266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76e1c6b-8776-4165-981e-85cc6f2751a1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -5253,7 +5316,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5269,7 +5332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c807018c-e471-4d9e-af67-a6543deb7cc8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 139.7 148.59 0)
 			(effects
 				(font
@@ -5319,7 +5382,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5334,7 +5397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccd2bd34-20ad-47e8-abc6-429db356021b")
-		(property "Reference" "R20"
+		(property "Reference" "R2"
 			(at 49.53 30.48 90)
 			(effects
 				(font
@@ -5350,7 +5413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.53 34.798 90)
 			(effects
 				(font
@@ -5386,7 +5449,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "R20")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5402,7 +5465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c8ada7-e7b1-47c9-968e-ae8051c9a9fb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 115.57 148.59 0)
 			(effects
 				(font
@@ -5452,7 +5515,7 @@
 		(instances
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f211276e-df08-4751-b98d-0298c995e480")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -5518,7 +5581,7 @@
 		(instances
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
