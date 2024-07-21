@@ -5321,6 +5321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ca390ef-cebb-4073-88cb-41f466b8ef4e")
 		)
@@ -5447,6 +5456,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 116.84 0)
 			(effects
 				(font
@@ -5658,6 +5676,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6251b0ba-cb08-45f7-9dd1-ff39475d40fe")
 		)
@@ -5787,6 +5814,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 27.94 0)
 			(effects
 				(font
@@ -5998,6 +6034,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7afce27c-bc05-46f3-a9ef-7ef0a7451166")
 		)
@@ -6191,6 +6236,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 111.76 0)
 			(effects
 				(font
@@ -6459,6 +6513,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 53.34 144.78 0)
 			(effects
 				(font
@@ -6741,6 +6804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e75e0d2-2732-4edf-8d09-6b2a0945862d")
 		)
@@ -6800,6 +6872,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 172.72 0)
 			(effects
 				(font
@@ -7070,6 +7151,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -7411,6 +7501,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 53.34 111.76 0)
 			(effects
 				(font
@@ -7954,6 +8053,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5f20b43-e449-42a4-9cbb-9e9ea1f53df8")
 		)
@@ -8088,6 +8196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b11d280f-bc10-430a-a5a8-420b84b343c2")
 		)
@@ -8147,6 +8264,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -8685,6 +8811,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 53.34 27.94 0)
 			(effects
 				(font
@@ -9373,6 +9508,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8fb21972-f145-4ad5-93a5-6cef5828cf88")
 		)
@@ -9432,6 +9576,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 223.52 0)
 			(effects
 				(font
@@ -9644,6 +9797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 135.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6669befb-f1a6-499e-ab61-39f63a682f6b")
 		)
@@ -9773,6 +9935,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -10733,6 +10904,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4975ef1a-3efa-480b-8258-c0feb09eecd7")
 		)
@@ -10792,6 +10972,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 228.6 0)
 			(effects
 				(font
@@ -10999,6 +11188,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "467565fc-a3bb-4551-8650-aec58e9496f4")
 		)
@@ -11128,6 +11326,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -11406,6 +11613,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 135.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed5897a7-8b77-478b-a596-74d4ef207bdf")
 		)
@@ -11531,6 +11747,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -11665,6 +11890,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 53.34 55.88 0)
 			(effects
 				(font
@@ -12348,6 +12582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12686145-eab7-4d95-a8a4-a41cfadc5050")
 		)
@@ -12962,6 +13205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92b9f68f-d9e6-4897-ba82-661f28882932")
 		)
@@ -13029,6 +13281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "CRGP1210F22R "
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b87b9650-a132-46be-93c1-9dc92cdaa98c")
 		)
@@ -13088,6 +13349,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRGP1210F22R "
 			(at 135.89 167.64 0)
 			(effects
 				(font

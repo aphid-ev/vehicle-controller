@@ -1879,6 +1879,14 @@
 		(uuid "f5dcbd19-8053-404b-a5b4-efd90314d47f")
 	)
 	(no_connect
+		(at 161.29 76.2)
+		(uuid "12a9ad20-0d8e-4bb3-8f11-acc8f54fc74a")
+	)
+	(no_connect
+		(at 161.29 78.74)
+		(uuid "6ed73084-5867-48fe-a948-8be2d01a2015")
+	)
+	(no_connect
 		(at 161.29 119.38)
 		(uuid "741ae393-f4e2-48ca-943f-d63a1d26a8c5")
 	)
@@ -2079,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "27904a3c-dc4e-4685-8606-ecd2a1b3cf89")
-	)
-	(wire
-		(pts
-			(xy 161.29 76.2) (xy 163.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d10e2a-a458-4140-96aa-b0e3615f05f0")
 	)
 	(wire
 		(pts
@@ -2392,16 +2390,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 78.74) (xy 163.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afa35d1-2fff-4e62-8741-cef55a4757fb")
-	)
-	(wire
-		(pts
 			(xy 135.89 139.7) (xy 133.35 139.7)
 		)
 		(stroke
@@ -2569,6 +2557,16 @@
 			(type default)
 		)
 		(uuid "853eb4f8-4e46-49fd-8f28-8ea7a09e1c49")
+	)
+	(wire
+		(pts
+			(xy 265.43 24.13) (xy 265.43 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a570a3e-91a8-45f7-8ab7-1695ccd58189")
 	)
 	(wire
 		(pts
@@ -2842,6 +2840,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 34.29) (xy 265.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d81cb7-b053-44c9-b092-ed152ff773c7")
+	)
+	(wire
+		(pts
 			(xy 115.57 124.46) (xy 118.11 124.46)
 		)
 		(stroke
@@ -3027,18 +3035,6 @@
 			(justify right)
 		)
 		(uuid "01dc1433-bb6a-4f69-aec1-64611c7a44f1")
-	)
-	(hierarchical_label "ALERTOUT"
-		(shape output)
-		(at 163.83 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "021b053f-da1c-4999-9478-4dfba74b6f7f")
 	)
 	(hierarchical_label "SW14"
 		(shape input)
@@ -3520,18 +3516,6 @@
 		)
 		(uuid "cd5fa6ae-ed0b-42a3-b283-b965ac29e874")
 	)
-	(hierarchical_label "ALERTIN"
-		(shape input)
-		(at 163.83 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9a5062c-5af0-488c-b955-0522accfd11f")
-	)
 	(hierarchical_label "SW2"
 		(shape input)
 		(at 115.57 116.84 180)
@@ -3579,6 +3563,76 @@
 			(justify right)
 		)
 		(uuid "f70c2cb9-5b13-45e1-83b8-23f0553273bd")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 265.43 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0720e6f8-66c8-4712-851f-62e02ea6236a")
+		(property "Reference" "C51"
+			(at 269.24 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47uF"
+			(at 269.24 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 266.3952 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a0844ab-0d73-470c-810c-f82f3fccb465")
+		)
+		(pin "1"
+			(uuid "bfb32216-e38b-4abf-9a8f-122aa4c300c5")
+		)
+		(instances
+			(project "aphid-bms-slave"
+				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3740,7 +3794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 253.6952 34.29 0)
 			(effects
 				(font
@@ -4010,7 +4064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 34.29 0)
 			(effects
 				(font
@@ -4389,6 +4443,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VAA")
+		(at 265.43 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54297ee2-9775-4c23-957a-bbd5e7b1df4c")
+		(property "Reference" "#PWR040"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 265.43 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 265.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ca5045-e25f-4792-8466-7183c65f6f56")
+		)
+		(instances
+			(project "aphid-bms-slave"
+				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 39.37 0)
 		(unit 1)
@@ -4618,7 +4738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 239.7252 34.29 0)
 			(effects
 				(font
@@ -5317,6 +5437,72 @@
 			(project ""
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f7cfbb-9d1f-437f-8f0b-99ab1e1cfac2")
+		(property "Reference" "#PWR041"
+			(at 265.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "602b0ee2-c6f1-4638-b387-b7c9cc7aaa31")
+		)
+		(instances
+			(project "aphid-bms-slave"
+				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
