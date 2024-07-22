@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "5fedd894-68ca-45dc-a595-4dfbbb61302f")
 	(paper "A4")
+	(title_block
+		(title "aphid-ev BMS slave")
+		(date "2024-07-23")
+		(rev "1.0")
+		(company "https://aphid-ev.se")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -1691,6 +1697,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VAA"
 			(power)
 			(pin_numbers hide)
@@ -1847,6 +1949,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a172e8a7-03bb-4e39-bb1a-9c30e28ef3e6")
+	)
+	(junction
+		(at 73.66 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a558256f-9b6c-4315-8287-fb7842764ca3")
 	)
 	(junction
 		(at 135.89 139.7)
@@ -2600,6 +2708,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 33.02) (xy 81.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99268015-397c-49b6-8f43-4a1683704b2b")
+	)
+	(wire
+		(pts
 			(xy 163.83 58.42) (xy 170.18 58.42)
 		)
 		(stroke
@@ -2637,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "a5b3b02d-50d8-43aa-8810-e70260a56e92")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c48f63-9563-4d73-802a-45cd7d5316a2")
 	)
 	(wire
 		(pts
@@ -2959,7 +3087,7 @@
 		(uuid "ff3192e8-1f7b-4e49-9d71-bce35efdcd7c")
 	)
 	(label "DCIN"
-		(at 73.66 33.02 180)
+		(at 81.28 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3831,6 +3959,72 @@
 			(project "aphid-bms-slave"
 				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130e998b-be58-452c-b961-f9c0b58fd612")
+		(property "Reference" "#FLG02"
+			(at 73.66 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab12d6d4-bf1a-47ff-bdae-aed39d102aff")
+		)
+		(instances
+			(project ""
+				(path "/36f5197f-5a2b-49d7-95ca-bb7937adb059/bace280d-5e22-4cdc-8a55-0eef12567d39"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

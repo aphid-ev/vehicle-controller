@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "862f40b3-3ac4-41ba-b082-f560a785b080")
 	(paper "A4")
+	(title_block
+		(title "aphid-ev BMS slave")
+		(date "2024-07-23")
+		(rev "1.0")
+		(company "https://aphid-ev.se")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
