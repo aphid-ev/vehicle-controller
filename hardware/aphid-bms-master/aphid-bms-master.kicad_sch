@@ -1192,13 +1192,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 74.93) (xy 146.05 74.93)
+			(xy 135.89 81.28) (xy 146.05 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11362357-1579-444d-8396-1ddb7959d334")
+		(uuid "0b59ca83-e3d6-4ec9-9a66-176de971e974")
 	)
 	(wire
 		(pts
@@ -1232,6 +1232,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 60.96) (xy 217.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a26f19c-d392-4802-9ad3-b6e20142c1a1")
+	)
+	(wire
+		(pts
 			(xy 191.77 95.25) (xy 217.17 95.25)
 		)
 		(stroke
@@ -1242,13 +1252,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 58.42) (xy 195.58 58.42)
+			(xy 135.89 58.42) (xy 146.05 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40b295d9-3e4f-465d-9f24-bec09017e5b1")
+		(uuid "2f7c8db2-d61f-44b5-9886-0ffb76dbea32")
 	)
 	(wire
 		(pts
@@ -1262,23 +1272,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 72.39) (xy 200.66 72.39)
+			(xy 191.77 66.04) (xy 217.17 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4be1966f-9326-4f00-ba03-f4f7f2fcaf47")
-	)
-	(wire
-		(pts
-			(xy 217.17 66.04) (xy 214.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "584dec0a-a55f-492e-ab5e-b96a952d4ed4")
+		(uuid "4ae128c0-d895-4172-bd66-a76617eb7d1d")
 	)
 	(wire
 		(pts
@@ -1289,16 +1289,6 @@
 			(type default)
 		)
 		(uuid "58e679d0-9ee8-4b32-bc07-24d2a3b9b47e")
-	)
-	(wire
-		(pts
-			(xy 135.89 81.28) (xy 146.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc4febd-67d4-4fe0-b3b4-11cc130dd683")
 	)
 	(wire
 		(pts
@@ -1322,13 +1312,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 198.12 69.85)
+			(xy 191.77 58.42) (xy 217.17 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "685f4054-55bf-47b7-a3b4-d3c1f4c121ba")
+		(uuid "633303a5-f3d8-49ac-a6de-7d52f720c5ef")
 	)
 	(wire
 		(pts
@@ -1342,13 +1332,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 60.96) (xy 200.66 60.96)
+			(xy 135.89 66.04) (xy 146.05 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76ad9c85-12c5-4ab1-b99a-09f2acfd9def")
+		(uuid "7c3e6fa4-e2dd-4499-a39c-d8e54922dfb8")
 	)
 	(wire
 		(pts
@@ -1359,16 +1349,6 @@
 			(type default)
 		)
 		(uuid "7cfc522b-66c2-4471-9ddd-2b8b1fc61a9e")
-	)
-	(wire
-		(pts
-			(xy 135.89 83.82) (xy 146.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d722d6-453c-4e77-ba2b-5d9b4b43e607")
 	)
 	(wire
 		(pts
@@ -1392,23 +1372,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 78.74) (xy 146.05 78.74)
+			(xy 135.89 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e33debb-74c3-4a2c-aed0-d83fb3774770")
-	)
-	(wire
-		(pts
-			(xy 191.77 69.85) (xy 198.12 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fccd65b-966d-4231-be6d-43cbf83a80f8")
+		(uuid "8f8fe94c-cd91-4387-bf65-4eddd30857b6")
 	)
 	(wire
 		(pts
@@ -1419,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "91468eb6-7356-4892-9a26-03781e926700")
-	)
-	(wire
-		(pts
-			(xy 135.89 58.42) (xy 146.05 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "976845ec-9ea4-4f15-8892-e2609d8cba99")
 	)
 	(wire
 		(pts
@@ -1482,6 +1442,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b0b432-1848-4e3e-8d87-4afb80ec3202")
+	)
+	(wire
+		(pts
 			(xy 191.77 111.76) (xy 217.17 111.76)
 		)
 		(stroke
@@ -1502,16 +1472,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 58.42) (xy 195.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd0185ab-36ce-45bc-8ac2-fd5458812624")
-	)
-	(wire
-		(pts
 			(xy 217.17 90.17) (xy 198.12 90.17)
 		)
 		(stroke
@@ -1519,16 +1479,6 @@
 			(type default)
 		)
 		(uuid "bf4ff1fa-5b5e-4676-ac38-467a10f656ca")
-	)
-	(wire
-		(pts
-			(xy 195.58 63.5) (xy 217.17 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c26c6360-67ab-403d-bc16-60570fde4a4f")
 	)
 	(wire
 		(pts
@@ -1542,33 +1492,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 146.05 72.39)
+			(xy 135.89 78.74) (xy 146.05 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9e917ec-d7c0-40d6-9815-d040900f26bb")
+		(uuid "ca77fcf3-478d-459a-8bd9-6c4162657234")
 	)
 	(wire
 		(pts
-			(xy 214.63 66.04) (xy 214.63 68.58)
+			(xy 191.77 63.5) (xy 217.17 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccfba192-7dc9-4f26-a09b-bf402250b58d")
+		(uuid "cdaf4e18-f542-40e3-89e3-152a172f31d4")
 	)
 	(wire
 		(pts
-			(xy 135.89 69.85) (xy 146.05 69.85)
+			(xy 135.89 83.82) (xy 146.05 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfc62eba-b821-4288-9a71-d445a292b72d")
+		(uuid "cf3511d4-3af9-4965-b98c-6ac03da16fbc")
 	)
 	(wire
 		(pts
@@ -1589,16 +1539,6 @@
 			(type default)
 		)
 		(uuid "d777e05f-309c-4f82-9097-db35fd3599b4")
-	)
-	(wire
-		(pts
-			(xy 200.66 60.96) (xy 200.66 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fa648f-be35-4113-82b5-43196a2af445")
 	)
 	(wire
 		(pts
@@ -1629,16 +1569,6 @@
 			(type default)
 		)
 		(uuid "e7b16726-f8e0-47cc-9489-4445a01b765a")
-	)
-	(wire
-		(pts
-			(xy 217.17 58.42) (xy 198.12 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb65a6b3-7143-48fb-be09-40141f1c2a14")
 	)
 	(wire
 		(pts
@@ -1691,82 +1621,6 @@
 			(justify left)
 		)
 		(uuid "e6ba0690-e895-421e-9769-c762e4ea48c1")
-	)
-	(text "Daisy-chained to all slave boards with\nisolated CAN-transcievers.\nThis board contains one 120 ohm termination,\nthe last slave board has the other one.\n"
-		(exclude_from_sim no)
-		(at 227.33 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1039b66-a06b-4e64-80a8-a926988b0040")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 214.63 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "082b3869-75be-42b2-90cc-9b823d8a20a1")
-		(property "Reference" "#PWR02"
-			(at 214.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04939f13-16c3-400c-b0e4-8230d9540f64")
-		)
-		(instances
-			(project "aphid-bms-master"
-				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -1833,6 +1687,82 @@
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 222.25 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d01bc2b-979f-4006-af02-fc9ca8acfefd")
+		(property "Reference" "J1"
+			(at 224.79 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPPER"
+			(at 224.79 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3caee350-5cec-4e51-8fff-7bd6e338565b")
+		)
+		(pin "1"
+			(uuid "007fbeda-4d61-45ba-987d-e7d436e3749a")
+		)
+		(pin "3"
+			(uuid "ffd1e428-8603-4d6c-b21a-d0f2620a4c40")
+		)
+		(pin "4"
+			(uuid "9897ca12-b143-458b-9729-f2282bf2e6fd")
+		)
+		(instances
+			(project ""
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2110,7 +2040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c4270bc-02c7-4a62-8f22-51fc1e7186c1")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR02"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -2160,7 +2090,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "#PWR040")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2176,7 +2106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cce13f4-a555-44df-9854-450cab9a8346")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR01"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -2226,7 +2156,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "#PWR041")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ada20bc-32a0-4b9d-bd9d-b192b29e64d9")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 76.2 63.4999 0)
 			(effects
 				(font
@@ -2296,7 +2226,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa532662-5a99-4319-9003-fdba42172770")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 214.63 109.22 0)
 			(effects
 				(font
@@ -2495,7 +2425,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2572,82 +2502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 222.25 63.5 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3deec04-f9b9-4626-a28e-660a3fe5f66b")
-		(property "Reference" "J2"
-			(at 224.79 63.5001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Slaves"
-			(at 224.79 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical"
-			(at 222.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 222.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7803a704-22c4-43f0-84c6-bab01e4e7b8a")
-		)
-		(pin "2"
-			(uuid "e665f8d2-6547-4a00-b07e-b21e766ccb71")
-		)
-		(pin "1"
-			(uuid "f26e8475-7fea-4df6-a5cf-d14cdcabf460")
-		)
-		(pin "4"
-			(uuid "344a0cae-82d9-4243-b967-693e9d817810")
-		)
-		(instances
-			(project ""
-				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 222.25 95.25 0)
 		(mirror x)
@@ -2657,7 +2511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed499640-3824-4133-b6c1-56e7af6d6b24")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 224.79 96.5201 0)
 			(effects
 				(font
@@ -2720,7 +2574,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2814,56 +2668,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN1_RX" input
-			(at 135.89 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8e0cdb70-bf14-4e1d-a487-0749c30c34c5")
-		)
-		(pin "CAN1_TX" output
-			(at 135.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "781270e3-1552-4ac8-87c5-d7619a609dbb")
-		)
-		(pin "CAN1_STB" output
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6a28d527-00d0-4d26-b58e-de9330f8da5b")
-		)
-		(pin "CAN2_RX" input
-			(at 135.89 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a2987365-5f57-4672-8fcf-56a8565c5416")
-		)
-		(pin "CAN2_TX" output
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "39295a30-1ffc-4263-bf38-aec56ace6b4b")
-		)
 		(pin "ENABLE_PRECHARGE" output
 			(at 135.89 121.92 0)
 			(effects
@@ -2873,26 +2677,6 @@
 				(justify right)
 			)
 			(uuid "8cbd0ad1-2a66-4a20-adcb-8d436bf19282")
-		)
-		(pin "ENABLE_SLAVES" output
-			(at 135.89 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f86b8233-8192-48de-8121-9f97dc0eff2f")
-		)
-		(pin "CAN2_STB" output
-			(at 135.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "66e20424-1a89-468c-b3da-bc12a9852a7e")
 		)
 		(pin "ENABLE_NEG" output
 			(at 135.89 119.38 0)
@@ -2974,6 +2758,76 @@
 			)
 			(uuid "747ccbcd-00be-4724-a704-1462a7685a94")
 		)
+		(pin "CAN_STB" output
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "badc831a-b0f0-4145-93fc-d948ce27c00b")
+		)
+		(pin "CAN_RX" input
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "716f502b-c0bf-488e-808a-44fa6fc9e903")
+		)
+		(pin "CAN_TX" output
+			(at 135.89 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "800e9708-5929-4165-b735-9d55f85ca71d")
+		)
+		(pin "~{MAX178851_CS}" output
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fa63f14-6d7b-45e2-982c-0dfe68fd2346")
+		)
+		(pin "SPI_SCLK" output
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d627401-ccd9-40d5-a8b1-c8cee1e57d60")
+		)
+		(pin "SPI_SDO" output
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "215ee633-c948-4ee2-a1a8-6d8c96b228c4")
+		)
+		(pin "SPI_SDI" input
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fd9870e-d723-4065-8c74-874d67f84461")
+		)
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
@@ -2983,66 +2837,8 @@
 		)
 	)
 	(sheet
-		(at 146.05 55.88)
-		(size 45.72 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "727ec286-ed11-433c-9e19-812589aa3395")
-		(property "Sheetname" "Slave Power"
-			(at 146.05 55.1684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "slave_power.kicad_sch"
-			(at 146.05 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ENABLE" input
-			(at 146.05 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "62bc0658-028c-43e3-b8ae-40d84b72617e")
-		)
-		(pin "SLAVE_5V" input
-			(at 191.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d406e40e-ce82-49f7-b092-6c763695cf27")
-		)
-		(instances
-			(project "aphid-bms-master"
-				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 146.05 67.31)
-		(size 45.72 19.05)
+		(at 146.05 76.2)
+		(size 45.72 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3053,7 +2849,7 @@
 		)
 		(uuid "78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26")
 		(property "Sheetname" "CAN"
-			(at 146.05 66.5984 0)
+			(at 146.05 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,77 +2866,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN1_RX" output
-			(at 146.05 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e999e370-4439-4f09-bc22-74587c585bc1")
-		)
-		(pin "CAN2_TX" input
-			(at 146.05 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f95ed7f9-0455-42d1-b632-cdcd8cd6e0d9")
-		)
-		(pin "CAN2_RX" input
-			(at 146.05 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a8591478-51e3-4f25-b41a-be4101883055")
-		)
-		(pin "CAN1_STB" input
-			(at 146.05 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b103db4b-846d-41b1-bf41-3efb208cc1bc")
-		)
-		(pin "CAN2_STB" input
-			(at 146.05 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "43faab9d-c51b-4feb-a0e3-cf401154282c")
-		)
-		(pin "CAN1_TX" input
-			(at 146.05 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "98abc451-3cee-4c11-acb5-cf1bd4a76ec5")
-		)
-		(pin "CAN1_HIGH" passive
-			(at 191.77 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ce81a1c1-314a-46dd-8119-4c5757af956d")
-		)
-		(pin "CAN1_LOW" passive
+		(pin "CAN_HIGH" passive
 			(at 191.77 81.28 0)
 			(effects
 				(font
@@ -3148,32 +2874,170 @@
 				)
 				(justify right)
 			)
-			(uuid "816617a6-8ebb-42f0-ae73-bae04d4aebee")
+			(uuid "2197ec66-9ec3-4022-8a85-2776708184eb")
 		)
-		(pin "CAN2_LOW" passive
-			(at 191.77 69.85 0)
+		(pin "CAN_LOW" passive
+			(at 191.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef0d8425-bec5-4400-b542-90be31ca960c")
+			(uuid "24cc5e71-d856-4219-8799-c52ffedeccca")
 		)
-		(pin "CAN2_HIGH" passive
-			(at 191.77 72.39 0)
+		(pin "CAN_RX" output
+			(at 146.05 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "764f6844-8a5e-45ac-a10f-66dad85a5803")
+			(uuid "e33b55a2-1dbc-4a9c-aa45-f020bcd0e684")
+		)
+		(pin "CAN_TX" input
+			(at 146.05 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b901c839-c226-41b0-8e0d-0f559fe24185")
+		)
+		(pin "CAN_STB" input
+			(at 146.05 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b5c280d-95f4-4093-8b07-41e573191c16")
 		)
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 55.88)
+		(size 45.72 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1172cea-ce24-43c0-9109-a9fd32a7590b")
+		(property "Sheetname" "MAX17851"
+			(at 146.05 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "max17851.kicad_sch"
+			(at 146.05 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{CS}" input
+			(at 146.05 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffc32c29-9397-4eda-bf2f-a9bedcb11f4a")
+		)
+		(pin "SCLK" input
+			(at 146.05 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73f9d13c-3cdc-4014-a364-15f19d7e06c0")
+		)
+		(pin "SDI" input
+			(at 146.05 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "621cbb94-b0b7-43e2-bd63-b9be940488bf")
+		)
+		(pin "SDO" output
+			(at 146.05 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b0d0687-1619-4f40-aa0d-0195a4dab61d")
+		)
+		(pin "TXP" output
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "277c2bff-a520-49a4-aa82-d8fbcf2ec23a")
+		)
+		(pin "TXN" output
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b502884e-e2a9-40a3-a9fb-453e14f1b165")
+		)
+		(pin "RXP" input
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38569006-0df6-4906-80a3-f5d4a7dfa288")
+		)
+		(pin "RXN" input
+			(at 191.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6d8c0a7-546e-4a69-bcff-2becea8e1d23")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e"
+					(page "6")
 				)
 			)
 		)

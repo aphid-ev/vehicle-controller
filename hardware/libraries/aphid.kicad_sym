@@ -1786,7 +1786,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 17.78 270)
+				(at 3.81 17.78 270)
 				(length 2.54)
 				(name "DCIN2"
 					(effects
@@ -2038,7 +2038,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 17.78 270)
+				(at -3.81 17.78 270)
 				(length 2.54)
 				(name "DCIN1"
 					(effects

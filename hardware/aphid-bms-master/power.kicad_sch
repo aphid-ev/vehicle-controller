@@ -2624,7 +2624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "049207f3-2f4b-47a3-b780-b5f783a4a6e9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR043"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR021")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14339642-b350-423e-85e8-2b06e53b060e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR046"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -2740,7 +2740,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR070")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2756,7 +2756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19223cd7-d085-4fbc-a495-3a8c74155b6a")
-		(property "Reference" "C10"
+		(property "Reference" "C17"
 			(at 91.44 114.3 90)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C10")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d7bdf8e-fa0f-490f-9701-97d57d26d41e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR048"
 			(at 158.75 128.27 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR015")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b427a8-ded7-4662-97e0-55f738db8867")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR039"
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -2940,7 +2940,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR066")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2956,7 +2956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b701251-bc56-414b-9410-b4dcd9dd78ae")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR058"
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR030")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3022,7 +3022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d36b615-5af1-4b19-a764-4aa02c783546")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 242.57 85.4074 90)
 			(effects
 				(font
@@ -3076,7 +3076,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3092,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4321c6ba-c402-4087-903a-d8c24f9da066")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR042"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -3142,7 +3142,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR019")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3158,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455224bf-7492-4e47-9ab1-98b6a770b33a")
-		(property "Reference" "C7"
+		(property "Reference" "C18"
 			(at 35.56 129.5399 0)
 			(effects
 				(font
@@ -3212,7 +3212,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C7")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46217304-d78d-480b-99f5-f1fcfd9c3c20")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 72.39 116.84 0)
 			(effects
 				(font
@@ -3301,7 +3301,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3388,7 +3388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486f7f6d-19aa-4361-a96f-3c4e942e3a54")
-		(property "Reference" "C4"
+		(property "Reference" "C14"
 			(at 62.23 52.0699 0)
 			(effects
 				(font
@@ -3442,7 +3442,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C4")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48c4cb5e-e559-49f9-92d0-503868b65361")
-		(property "Reference" "C15"
+		(property "Reference" "C24"
 			(at 257.81 133.3499 0)
 			(effects
 				(font
@@ -3512,7 +3512,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3528,7 +3528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f546fbd-69ed-46db-a9b8-635e82d087ee")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR059"
 			(at 72.39 153.67 0)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR024")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3594,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55ddf2c6-ae81-4d1d-a752-60a801855c16")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR044"
 			(at 124.46 67.31 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR025")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3660,7 +3660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "563763b4-2e0e-4a10-bea1-cd23908c907c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR047"
 			(at 29.21 125.73 0)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR029")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3726,7 +3726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581dc5be-67dc-4a01-8d9f-f91a6c7455e7")
-		(property "Reference" "C8"
+		(property "Reference" "C19"
 			(at 49.53 129.5399 0)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C8")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c0ab2e7-183a-46d8-8291-73aeb8c4a351")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 104.14 121.92 90)
 			(effects
 				(font
@@ -3848,7 +3848,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8be3b6-659f-4e04-9f03-ef33e89bb370")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR052"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -3914,7 +3914,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR034")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3930,7 +3930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "606e2f35-ecaf-4ecf-8d03-bffbecadfe91")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 42.2275 40.64 0)
 			(effects
 				(font
@@ -3982,7 +3982,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3998,7 +3998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68092a93-9c40-4d57-9a93-b38364cc3af3")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 128.27 53.3399 0)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4068,7 +4068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68150d11-b84c-4b39-b755-6f309ab142fc")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 80.01 52.0699 0)
 			(effects
 				(font
@@ -4122,7 +4122,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C5")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c8b96c7-a842-44a5-8f6f-edad3240c096")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR055"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -4188,7 +4188,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR018")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "728e2ea0-e7af-46d6-b7ba-ad4f755be06e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR049"
 			(at 231.14 129.54 0)
 			(effects
 				(font
@@ -4254,7 +4254,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR023")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4270,7 +4270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73720c09-484d-48d6-bea3-07dbdb18fe66")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR041"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR017")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4336,7 +4336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7472b84a-77ca-4690-a327-54b513658bd3")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 114.3 40.6399 0)
 			(effects
 				(font
@@ -4390,7 +4390,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c7fc52-2492-433a-a770-12e56d772616")
-		(property "Reference" "C12"
+		(property "Reference" "C21"
 			(at 147.32 132.0799 0)
 			(effects
 				(font
@@ -4460,7 +4460,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C12")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4476,7 +4476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79b11a2b-28e7-4395-92f8-26a8dd55c407")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 114.3 132.0799 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0915e9-35e2-4f6c-aa9c-b063be8f1f0f")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 167.64 122.555 0)
 			(effects
 				(font
@@ -4596,7 +4596,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -4612,7 +4612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9bd25c-28de-4dc1-b578-668efce4c99d")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 127 144.7799 0)
 			(effects
 				(font
@@ -4666,7 +4666,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4682,7 +4682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89fbb18c-1b36-46b3-8101-035bb9a98a8b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR057"
 			(at 254 147.32 0)
 			(effects
 				(font
@@ -4732,7 +4732,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR028")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4748,7 +4748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bae98da-fd53-44f3-8cf2-a3559b2b5207")
-		(property "Reference" "L4"
+		(property "Reference" "L3"
 			(at 52.07 41.91 90)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "L4")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97a169ce-8056-4f94-a75f-62a37a54e269")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR053"
 			(at 143.51 146.05 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR031")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f39ea44-6693-4ea5-abba-9fe0610a1fef")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR051"
 			(at 31.75 143.51 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR033")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4948,7 +4948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be255bb5-5187-4d63-bd29-892fe9babedb")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR056"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -4998,7 +4998,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR027")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6e4fb3-2fb2-4fe9-abb8-f1465f0e3866")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 160.02 132.0799 0)
 			(effects
 				(font
@@ -5068,7 +5068,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d0ba12-8095-4e18-8278-f438a5a947f4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR054"
 			(at 156.21 146.05 0)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR032")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5150,7 +5150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c70a369f-9866-4d61-96e2-ad4d3a76e01a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR040"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR020")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5dc8817-910b-4749-883b-e8b4fabd24ff")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 201.93 37.465 0)
 			(effects
 				(font
@@ -5266,7 +5266,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5282,7 +5282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f20df7-151a-45d8-bc10-88296152760a")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 127 132.0799 0)
 			(effects
 				(font
@@ -5336,7 +5336,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d768d593-777d-4b6b-a403-9dee686ec03c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -5402,7 +5402,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR022")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1f3268-4faa-4581-b8c7-7e0dedaf9f62")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR050"
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR016")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5484,7 +5484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd94eead-a81a-47a8-86d9-35d8106e8819")
-		(property "Reference" "C9"
+		(property "Reference" "C25"
 			(at 55.88 139.6999 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C9")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df3f3369-61a4-457a-bca3-b7d64dd0ecd6")
-		(property "Reference" "C14"
+		(property "Reference" "C23"
 			(at 229.87 133.3499 0)
 			(effects
 				(font
@@ -5608,7 +5608,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5624,7 +5624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e353b9ac-ebbe-4347-9911-679545b6432a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR060"
 			(at 124.46 158.75 0)
 			(effects
 				(font
@@ -5674,7 +5674,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR026")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81f5d67-6473-40b9-b535-219d774888f5")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 86.36 42.545 0)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 		(instances
 			(project ""
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed20b2fa-5b1c-40d1-b54c-22be77780d99")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR045"
 			(at 238.76 72.39 0)
 			(effects
 				(font
@@ -5806,7 +5806,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "#PWR071")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5822,7 +5822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b6cdff-5d41-4ead-8131-48ecf6f838cd")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 241.3 73.6599 0)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5892,7 +5892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f571c96b-4b1a-4ee4-88b3-28d3dd93e9dc")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 114.3 53.3399 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/1fe6ef78-e9a3-4355-a101-197515ec24d6"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
