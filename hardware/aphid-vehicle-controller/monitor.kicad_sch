@@ -1921,7 +1921,31 @@
 		)
 		(uuid "04cc2331-e9ec-422a-b257-17f700cb1e77")
 	)
-	(hierarchical_label "ACC1_FILTERED"
+	(hierarchical_label "MONITOR_UART_TX"
+		(shape output)
+		(at 59.69 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f7fb858-af03-43c8-96f9-06bd074ea93a")
+	)
+	(hierarchical_label "DIR_F"
+		(shape input)
+		(at 205.74 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38a5e85a-d901-4ae2-a130-50615af7c80e")
+	)
+	(hierarchical_label "ACC"
 		(shape input)
 		(at 204.47 110.49 0)
 		(fields_autoplaced yes)
@@ -1933,9 +1957,9 @@
 		)
 		(uuid "54257392-2baa-495c-bf42-0d3f9ef0da9c")
 	)
-	(hierarchical_label "ACC2_FILTERED"
+	(hierarchical_label "HIGH_SIDE_SENSE"
 		(shape input)
-		(at 204.47 119.38 0)
+		(at 214.63 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1943,11 +1967,11 @@
 			)
 			(justify left)
 		)
-		(uuid "845a7b28-2624-4cdd-858e-7da222c13c70")
+		(uuid "989acf0e-2b43-4957-ae55-c576bedf32cd")
 	)
-	(hierarchical_label "ENABLE_RESET"
-		(shape output)
-		(at 207.01 132.08 0)
+	(hierarchical_label "BRAKE"
+		(shape input)
+		(at 204.47 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1955,7 +1979,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9684092e-df42-4a8a-94f3-929cea9bb592")
+		(uuid "ab1c30b7-0a39-45bf-b21f-179db0e53c6a")
 	)
 	(hierarchical_label "HIGH_SIDE_ENABLE"
 		(shape input)
@@ -1969,6 +1993,30 @@
 		)
 		(uuid "cc2a1427-a2a7-4279-ab49-4f8110b78b8b")
 	)
+	(hierarchical_label "MONITOR_UART_RX"
+		(shape input)
+		(at 59.69 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1b552ff-35ac-4d81-8aa2-4327b9899a27")
+	)
+	(hierarchical_label "DIR_R"
+		(shape input)
+		(at 204.47 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f39e0628-b1e4-452b-9762-0d7ea34fb287")
+	)
 	(hierarchical_label "CAN1_MONITOR_RX"
 		(shape input)
 		(at 214.63 91.44 0)
@@ -1980,6 +2028,18 @@
 			(justify left)
 		)
 		(uuid "f57e2d94-0866-4b91-9771-3158e698b0d1")
+	)
+	(hierarchical_label "CRANK_SENSE"
+		(shape input)
+		(at 205.74 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f705df47-4aaf-4bbf-a91c-34b2c0166fa7")
 	)
 	(symbol
 		(lib_id "power:GND")

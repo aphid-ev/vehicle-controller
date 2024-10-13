@@ -5,8 +5,674 @@
 	(uuid "1bdad060-e59b-443f-afdb-9aa678a43546")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 92.71 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c921cf2c-e504-4cb5-8004-ccc5d83177de")
+	)
+	(wire
+		(pts
+			(xy 223.52 67.31) (xy 232.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04212e40-7f9a-4baf-9fd8-186cacbefe39")
+	)
+	(wire
+		(pts
+			(xy 81.28 27.94) (xy 232.41 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d929a4b-950b-4e70-8d6b-8b8d1ec0fc3b")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 185.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9beb2d-dbd4-4d0a-956f-e97214b6a66f")
+	)
+	(wire
+		(pts
+			(xy 223.52 95.25) (xy 232.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db3c6de-2c8d-4d6f-9495-33f92e9ef7d7")
+	)
+	(wire
+		(pts
+			(xy 177.8 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb9633c-9ca4-463d-91c8-8318a94b5a84")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef7bbee-2071-4763-ae22-e160cd999193")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bdfb9d-72cb-4344-8585-6e73d5368dd4")
+	)
+	(wire
+		(pts
+			(xy 180.34 69.85) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152c87b1-358a-4626-9afb-3724a6ee601f")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18882ae1-be55-4f7d-9998-09ac79320965")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f294c7-31f3-417e-a679-b9d00a1141e4")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dca989-7c27-4373-81f0-de5079c33778")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2184574d-1a08-4707-b19d-019e9d527503")
+	)
+	(wire
+		(pts
+			(xy 92.71 100.33) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2319126b-205f-4e91-84d3-e3d9517e7810")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ee67d9-586d-4fa4-9469-cd84d4036c34")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 182.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332f132c-8ea4-4bb7-ada1-f292725178b9")
+	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363284ed-83b3-4c03-aac1-03badb9048b5")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 100.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5b94d1-683e-418e-996d-2c7b823c7b87")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40778f53-41fd-4d40-a21a-8dd15feb7356")
+	)
+	(wire
+		(pts
+			(xy 223.52 81.28) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443d6b18-6a51-44d1-9762-f6fe76977797")
+	)
+	(wire
+		(pts
+			(xy 185.42 64.77) (xy 175.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ce6956-6c2b-4e96-bdeb-ce13d60e109c")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5289d9a7-963f-468c-8d46-c676c33e0a0a")
+	)
+	(wire
+		(pts
+			(xy 170.18 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b16c68-25f9-4236-a6b7-2376f7efbfca")
+	)
+	(wire
+		(pts
+			(xy 167.64 44.45) (xy 185.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a95e8d-8c4a-4bd4-a2c2-34070249fe9f")
+	)
+	(wire
+		(pts
+			(xy 223.52 46.99) (xy 232.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55aed8cc-d2f0-4141-99c3-8da7f5155482")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.34) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b348b7-12be-456f-b72c-eafce3ffc4a8")
+	)
+	(wire
+		(pts
+			(xy 102.87 88.9) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5511d8-4a5f-4f9c-958d-70d52bf77b42")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe32993-60bb-4cb9-934f-032f0d6ba19b")
+	)
+	(wire
+		(pts
+			(xy 81.28 25.4) (xy 232.41 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609f7997-0271-4687-bddf-291b8641cf0d")
+	)
+	(wire
+		(pts
+			(xy 81.28 43.18) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d0ae04-fcef-402e-a920-4c9c39ff1e58")
+	)
+	(wire
+		(pts
+			(xy 223.52 113.03) (xy 232.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a11cb9d-87cb-4929-b4ca-e22a7a48762f")
+	)
+	(wire
+		(pts
+			(xy 180.34 92.71) (xy 180.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7655d6-1784-4b38-b8e9-5814712b74b1")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faf5913-de15-4736-903e-acb334a3f932")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 105.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7442f8dd-87b1-463f-bb20-60335c548d5e")
+	)
+	(wire
+		(pts
+			(xy 223.52 40.64) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e26e1b-0e5d-478c-8777-015e0049de9b")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fb25fd-51d0-4c9c-ade8-2e45c0b28745")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 232.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abed1e9-66e3-47dc-8f26-828acddb3866")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 185.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8d9ee0-e512-4f70-9e0d-18e76edf8490")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89df96a5-2a59-46fc-8184-1e5c39905b52")
+	)
+	(wire
+		(pts
+			(xy 182.88 105.41) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9305f104-4ce2-4883-b91d-77cefd687372")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9491f788-31f8-472b-b5c1-138079fab153")
+	)
+	(wire
+		(pts
+			(xy 223.52 44.45) (xy 232.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97507326-536b-4e9a-98c0-033a09f6ea92")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a003576b-0367-48e1-a8a0-fe1cead5c298")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 105.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43b506c-e90f-4454-9aba-2d5beab84013")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68b71bc-fc31-43a6-bc9e-7b79c6d2893c")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bfe4e8-ae0f-463f-adda-24c2dcbc65f6")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 232.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d446d8-6cc9-4fb4-a8c7-41b39a30e07e")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adda00c9-56d4-4fc3-b243-323c8b4a13b3")
+	)
+	(wire
+		(pts
+			(xy 175.26 57.15) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec2aace-7d89-4c90-a547-4c9e70e24347")
+	)
+	(wire
+		(pts
+			(xy 180.34 102.87) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefa6d62-f8d7-46fe-bb14-f5d77f1f104c")
+	)
+	(wire
+		(pts
+			(xy 185.42 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af055349-1605-437f-aed0-a3a585bd38fe")
+	)
+	(wire
+		(pts
+			(xy 172.72 53.34) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b022eab8-c07e-4f7a-ba0b-ba3886c2030f")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 92.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0490cb7-8442-45e4-95f3-154e42406545")
+	)
+	(wire
+		(pts
+			(xy 81.28 46.99) (xy 105.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21fed15-df26-4f0c-b148-3581a0461298")
+	)
+	(wire
+		(pts
+			(xy 223.52 38.1) (xy 232.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82b96fb-796f-4642-850e-d68830a4ac87")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9467fe9-1b90-4b8e-8886-35406930e022")
+	)
+	(wire
+		(pts
+			(xy 81.28 22.86) (xy 232.41 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c85669-aeb3-4bd8-a525-866cc8aede50")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 175.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4d0e34-344b-4910-9e89-5a9b41fe863e")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03bd200-acb2-4011-aa94-2ab5018782b9")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 175.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10fa587-ef1d-45ad-abaa-f0be92dc8ead")
+	)
+	(wire
+		(pts
+			(xy 223.52 64.77) (xy 232.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dbc159-9b1e-4bf2-958f-fa75aaaa8198")
+	)
+	(wire
+		(pts
+			(xy 185.42 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabbdb12-7831-4d56-953d-0fb75584b150")
+	)
+	(wire
+		(pts
+			(xy 81.28 31.75) (xy 232.41 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1351ba4-8a9b-4b96-b4dd-daeca920ddd6")
+	)
+	(wire
+		(pts
+			(xy 105.41 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b3a9de-2317-4e62-8cf6-79fed5a3d7b7")
+	)
+	(wire
+		(pts
+			(xy 167.64 38.1) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24b16e2-6d34-4c73-a299-20b50af95f0b")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaadb8a4-c8a4-4a41-9c18-2cc62c86db20")
+	)
+	(wire
+		(pts
+			(xy 223.52 78.74) (xy 232.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7be8d3-406b-4402-a359-6018fca29d60")
+	)
 	(sheet
-		(at 185.42 33.02)
+		(at 185.42 35.56)
 		(size 38.1 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +684,7 @@
 		)
 		(uuid "0e4d64b0-bbfe-4bfe-a5a9-80bf6f07c4ac")
 		(property "Sheetname" "CAN"
-			(at 185.42 32.3084 0)
+			(at 185.42 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +693,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 185.42 53.9246 0)
+			(at 185.42 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +702,7 @@
 			)
 		)
 		(pin "CAN1_LOW" bidirectional
-			(at 223.52 38.1 0)
+			(at 223.52 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +712,7 @@
 			(uuid "73a25017-d94d-4d6d-8a95-3fe45be4918a")
 		)
 		(pin "CAN1_HIGH" bidirectional
-			(at 223.52 35.56 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +722,7 @@
 			(uuid "64f78e18-6bd9-4c98-8315-1389a3875d01")
 		)
 		(pin "CAN2_HIGH" bidirectional
-			(at 223.52 41.91 0)
+			(at 223.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +732,7 @@
 			(uuid "10207435-cc15-4209-bda6-4712bb0db799")
 		)
 		(pin "CAN2_LOW" bidirectional
-			(at 223.52 44.45 0)
+			(at 223.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +742,7 @@
 			(uuid "19c0f111-7183-4f89-b243-d4d9b220868c")
 		)
 		(pin "CAN2_RX" output
-			(at 185.42 44.45 180)
+			(at 185.42 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +752,7 @@
 			(uuid "ee721588-196d-40d0-837c-8e75dcea37f2")
 		)
 		(pin "CAN2_TX" input
-			(at 185.42 41.91 180)
+			(at 185.42 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +762,7 @@
 			(uuid "e07ea3a6-831c-4ac2-bd93-c79538a3520d")
 		)
 		(pin "CAN1_RX" output
-			(at 185.42 38.1 180)
+			(at 185.42 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +772,7 @@
 			(uuid "eb518131-6f53-46d3-a482-b2a35db807b0")
 		)
 		(pin "CAN1_TX" input
-			(at 185.42 35.56 180)
+			(at 185.42 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +782,7 @@
 			(uuid "ec8e2761-2933-48e5-8add-6fc2d1b5826c")
 		)
 		(pin "CAN1_MONITOR_RX" output
-			(at 185.42 50.8 180)
+			(at 185.42 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +792,7 @@
 			(uuid "3d6e39a0-8ccc-4096-99ce-6eb0fb94db97")
 		)
 		(pin "CAN1_MONITOR_TX" input
-			(at 185.42 48.26 180)
+			(at 185.42 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,8 +810,126 @@
 		)
 	)
 	(sheet
-		(at 185.42 80.01)
-		(size 38.1 21.59)
+		(at 185.42 90.17)
+		(size 38.1 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1558ac19-bf4c-43bb-8356-d3897a5fecba")
+		(property "Sheetname" "Direction"
+			(at 185.42 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "direction.kicad_sch"
+			(at 185.42 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIR_F1" input
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8560e35-d706-4aeb-8ba4-3861495208fd")
+		)
+		(pin "DIR_F2" input
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d72909d5-a1ef-4bb8-ab31-98d5ef34f909")
+		)
+		(pin "DIR_R1" input
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09f27e3f-7b06-4d3e-a30c-f944bbf327c8")
+		)
+		(pin "DIR_R2" input
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85fec2f0-1c2f-4055-9e4a-a4c58cc7ced2")
+		)
+		(pin "DIR_F1_FILTERED" input
+			(at 185.42 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9cace1a7-9077-4703-ae24-131eae417a18")
+		)
+		(pin "DIR_F2_FILTERED" input
+			(at 185.42 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f16d040f-881e-462d-976a-fd7d1cf0d6e3")
+		)
+		(pin "DIR_R1_FILTERED" input
+			(at 185.42 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbaaf782-3a98-4ec4-83da-0b261a780122")
+		)
+		(pin "DIR_R2_FILTERED" input
+			(at 185.42 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acf9340f-bb84-4c5b-980a-6e1bce51cfe0")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 110.49)
+		(size 38.1 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -155,8 +939,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3d287df9-d378-446a-9a45-9deed77b9c83")
-		(property "Sheetname" "Digital"
-			(at 185.42 79.2984 0)
+		(property "Sheetname" "High Side Out"
+			(at 185.42 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,8 +948,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "digital.kicad_sch"
-			(at 185.42 102.1846 0)
+		(property "Sheetfile" "hso.kicad_sch"
+			(at 185.42 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,18 +957,8 @@
 				(justify left top)
 			)
 		)
-		(pin "HIGH_SIDE_DRIVE" output
-			(at 223.52 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bf0e4e87-3900-40d1-bd0c-d55ee6573986")
-		)
 		(pin "HIGH_SIDE_SENSE" output
-			(at 185.42 97.79 180)
+			(at 185.42 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,85 +967,25 @@
 			)
 			(uuid "afed547e-0bc3-44cf-87f1-2cae3d00a079")
 		)
-		(pin "HIGH_SIDE_ENABLE" output
-			(at 185.42 93.98 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "871e6067-d2de-4736-aec5-78bb9a97a836")
-		)
-		(pin "IGNITION" input
-			(at 223.52 82.55 0)
+		(pin "HIGH_SIDE_DRIVE" output
+			(at 223.52 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4aca25b2-5bad-47a2-8170-edd8a5f97fd7")
+			(uuid "432bdf76-df8c-4d35-878e-c796727c3694")
 		)
-		(pin "PRECHARGE" output
-			(at 223.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "99d64d8a-5898-4bd7-887c-56d71c39d1f3")
-		)
-		(pin "PRECHARGE_ENABLE" input
-			(at 185.42 82.55 180)
+		(pin "HIGH_SIDE_ENABLE" input
+			(at 185.42 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc4a513d-eb7f-410d-ac0a-8fd7c481ec81")
-		)
-		(pin "CONTACTOR_LOWER" output
-			(at 223.52 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c0d4cd47-79ff-4a49-ad9a-634a6f310e23")
-		)
-		(pin "CONTACTOR_UPPER" output
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bab60168-abd7-43d2-80b8-8bf5e330cf86")
-		)
-		(pin "UPPER_ENABLE" input
-			(at 185.42 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "37eefbee-a924-47e1-b4b7-6a535d24d204")
-		)
-		(pin "LOWER_ENABLE" input
-			(at 185.42 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9eed9342-4386-4760-b56f-81d5faf57fd9")
+			(uuid "5529c866-dafa-4414-a87d-9eff2900d817")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
@@ -282,76 +996,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 114.3)
-		(size 38.1 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3d5505e7-965b-4b41-aec9-80a54b9e19ae")
-		(property "Sheetname" "Reset"
-			(at 185.42 113.5884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "reset.kicad_sch"
-			(at 185.42 132.6646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ENABLE_RESET" input
-			(at 185.42 116.84 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9877e2e0-0d98-40e9-b7a2-d66afbacf57b")
-		)
-		(pin "CRANK" input
-			(at 223.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9908bc4b-4e28-4b17-b26e-1d19017a5b72")
-		)
-		(pin "NRST" output
-			(at 185.42 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b3a854aa-44bb-4461-8343-d55c0b3324e3")
-		)
-		(instances
-			(project "aphid-vehicle-controller"
-				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 105.41 33.02)
-		(size 71.12 66.04)
+		(at 105.41 35.56)
+		(size 62.23 40.64)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -362,7 +1008,7 @@
 		)
 		(uuid "5fd98af0-74fd-4a15-9010-1812ef73eafc")
 		(property "Sheetname" "MCU"
-			(at 105.41 32.3084 0)
+			(at 105.41 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +1017,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 105.41 99.6446 0)
+			(at 105.41 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +1026,7 @@
 			)
 		)
 		(pin "CAN1_TX" output
-			(at 176.53 35.56 0)
+			(at 167.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +1036,7 @@
 			(uuid "fb511615-63b1-4126-ad6c-6587dc00a816")
 		)
 		(pin "CAN2_TX" output
-			(at 176.53 41.91 0)
+			(at 167.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +1046,7 @@
 			(uuid "e85f63d2-40b1-47a6-b510-8622c3a74640")
 		)
 		(pin "CAN1_RX" input
-			(at 176.53 38.1 0)
+			(at 167.64 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +1056,7 @@
 			(uuid "78817f4c-88c9-425b-8712-2d9fe9b90f70")
 		)
 		(pin "CAN2_RX" input
-			(at 176.53 44.45 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,35 +1065,105 @@
 			)
 			(uuid "52f007f0-a900-411e-9e53-92dadadf9f53")
 		)
-		(pin "LOWER_CONTACTOR_ENABLE" output
-			(at 176.53 92.71 0)
+		(pin "POWER_KEEPALIVE" output
+			(at 105.41 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "6b43aa80-9c72-4d1c-87c5-ca68835ef079")
+			(uuid "182269d3-5e0f-4a61-bd78-90302d94edb5")
 		)
-		(pin "PRECHARGE_ENABLE" output
-			(at 176.53 87.63 0)
+		(pin "ACC" input
+			(at 167.64 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4221b9e-7091-4bb2-bdd7-8de5cbdc3a71")
+			(uuid "90de63c0-7e9b-4bd6-8ace-c82a76a916d7")
 		)
-		(pin "UPPER_CONTACTOR_ENABLE" output
-			(at 176.53 90.17 0)
+		(pin "BRAKE" input
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "53cb7dd2-459b-420c-8682-f68ba35d806b")
+			(uuid "0acecf7b-41e9-4564-9be0-72e968bd1579")
+		)
+		(pin "DIR_F" input
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40ca6ac1-f6f7-4f01-8f28-9cdc7f409f6f")
+		)
+		(pin "DIR_R" input
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b99352a2-cfdd-4c3a-93c8-202baa63f33c")
+		)
+		(pin "VIN_SENSE" input
+			(at 105.41 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07d8827e-206a-47c8-a02e-12d5be01e9f1")
+		)
+		(pin "IGNITION_SENSE" input
+			(at 105.41 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b5a392a-9fe7-4506-ad9a-6d62fd3bcbed")
+		)
+		(pin "CRANK_SENSE" input
+			(at 105.41 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93ca68dc-cc6c-4f45-bd08-49db395b6ca5")
+		)
+		(pin "MONITOR_UART_TX" output
+			(at 105.41 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2def047-b3e5-47c4-95f1-26268f328931")
+		)
+		(pin "MONITOR_UART_RX" input
+			(at 105.41 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a66fe2fd-1ded-40aa-9a58-10841022f928")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
@@ -458,8 +1174,86 @@
 		)
 	)
 	(sheet
-		(at 45.72 33.02)
-		(size 39.37 15.875)
+		(at 185.42 76.2)
+		(size 38.1 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "845adc02-d0ea-41ad-a231-509f2381900a")
+		(property "Sheetname" "Brake"
+			(at 185.42 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "brake.kicad_sch"
+			(at 185.42 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BRAKE1" input
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7d93c4e-81aa-44ec-a21f-8253bad87b14")
+		)
+		(pin "BRAKE2" input
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97b93ff4-bbd0-44ab-9a4c-a7af7d28d0ad")
+		)
+		(pin "BRAKE1_FILTERED" output
+			(at 185.42 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d976b16-89f0-4978-9654-b1c97b54ba7f")
+		)
+		(pin "BRAKE2_FILTERED" output
+			(at 185.42 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed4f805f-a403-4059-8ec8-5402c2f440f2")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 20.32)
+		(size 39.37 29.21)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -470,7 +1264,7 @@
 		)
 		(uuid "98781d90-1f08-466f-be3c-fdb64160be3c")
 		(property "Sheetname" "Power"
-			(at 45.72 32.3084 0)
+			(at 41.91 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +1273,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 45.72 49.4796 0)
+			(at 41.91 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,17 +1282,17 @@
 			)
 		)
 		(pin "VIN" input
-			(at 45.72 35.56 180)
+			(at 81.28 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "53e7c64b-b3d0-424a-96c8-c4c2e6f9a10c")
 		)
 		(pin "VIN_SENSE" output
-			(at 85.09 35.56 0)
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,6 +1300,66 @@
 				(justify right)
 			)
 			(uuid "b094d4a6-f448-48e1-9f60-23f2f0d43c95")
+		)
+		(pin "IGNITION" input
+			(at 81.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc9975ea-8597-4a25-898e-77cf48ff340c")
+		)
+		(pin "POWER_KEEPALIVE" input
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc4a4192-d17b-4900-983f-c46dd99fba75")
+		)
+		(pin "EXT_5V" output
+			(at 81.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f4161a7-29cb-45ef-806f-8a30a3f34692")
+		)
+		(pin "IGNITION_SENSE" output
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18d36534-cc83-4a82-a6cc-8b0dbd45100c")
+		)
+		(pin "CRANK" input
+			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "315c2853-8cd0-4511-a211-0443526e2dd3")
+		)
+		(pin "CRANK_SENSE" input
+			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8a39299-0c41-41c3-a807-708cd1731f7f")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
@@ -516,8 +1370,8 @@
 		)
 	)
 	(sheet
-		(at 232.41 25.4)
-		(size 38.1 93.98)
+		(at 232.41 20.32)
+		(size 38.1 113.03)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -528,7 +1382,7 @@
 		)
 		(uuid "ad52b18e-06fb-41b6-9fa9-858fb103ce03")
 		(property "Sheetname" "Connectors"
-			(at 232.41 24.6884 0)
+			(at 232.41 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,7 +1391,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 232.41 119.9646 0)
+			(at 232.41 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +1400,7 @@
 			)
 		)
 		(pin "CAN2_HIGH" bidirectional
-			(at 232.41 41.91 180)
+			(at 232.41 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +1410,7 @@
 			(uuid "aa33ff6e-3ae5-40f1-9d7c-a2a29f44ce63")
 		)
 		(pin "CAN2_LOW" bidirectional
-			(at 232.41 44.45 180)
+			(at 232.41 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +1420,7 @@
 			(uuid "5127d28b-12a9-4721-a2bd-9359b6f986d2")
 		)
 		(pin "CAN1_LOW" bidirectional
-			(at 232.41 38.1 180)
+			(at 232.41 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +1430,7 @@
 			(uuid "32585c57-90c0-48fa-b020-50269337162d")
 		)
 		(pin "VIN" output
-			(at 232.41 27.94 180)
+			(at 232.41 22.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,7 +1440,7 @@
 			(uuid "c7646610-114b-4390-9513-b4722e94cf98")
 		)
 		(pin "CAN1_HIGH" bidirectional
-			(at 232.41 35.56 180)
+			(at 232.41 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,38 +1469,8 @@
 			)
 			(uuid "fc006670-6ad9-4c22-9739-60d71b553fc2")
 		)
-		(pin "BRAKE" output
-			(at 232.41 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1b41dba5-dc9c-4aa4-b0b6-ca9d6ebc5ca1")
-		)
-		(pin "PRECHARGE" input
-			(at 232.41 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f3d673d1-0632-44a5-b0e6-4cb7be0202b9")
-		)
-		(pin "CONTACTOR_UPPER" input
-			(at 232.41 90.17 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "de3c2072-2ab4-4b75-a787-c0bd84aed0d0")
-		)
 		(pin "HIGH_SIDE_DRIVE" input
-			(at 232.41 85.09 180)
+			(at 232.41 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,18 +1479,8 @@
 			)
 			(uuid "22218545-a346-443d-88c2-e218c7d30552")
 		)
-		(pin "CONTACTOR_LOWER" input
-			(at 232.41 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cf33a75b-8f9d-4a8e-8f6c-1c0ca5a78e4f")
-		)
 		(pin "IGNITION" output
-			(at 232.41 30.48 180)
+			(at 232.41 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +1490,7 @@
 			(uuid "47e3d42e-59dc-4fa7-a73f-7e74eda4b08b")
 		)
 		(pin "CRANK" output
-			(at 232.41 113.03 180)
+			(at 232.41 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,6 +1498,76 @@
 				(justify left)
 			)
 			(uuid "8f7e4607-8b09-472b-b4af-36bd36759589")
+		)
+		(pin "BRAKE2" output
+			(at 232.41 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "48216d76-6f33-47d4-aadf-3e937898c104")
+		)
+		(pin "BRAKE1" output
+			(at 232.41 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03e25397-ee11-4927-a857-284d7c8f3d24")
+		)
+		(pin "EXT_5V" input
+			(at 232.41 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6bf7595-3441-4e6e-878c-5a8db2a9af17")
+		)
+		(pin "DIR_R1" output
+			(at 232.41 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2def3c8b-d9b9-482a-a36a-ba22b6aff697")
+		)
+		(pin "DIR_R2" output
+			(at 232.41 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d0b4233-028d-4b25-aec8-4c2083038f3c")
+		)
+		(pin "DIR_F1" output
+			(at 232.41 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eafba074-b90b-40d6-8a33-d5b52ede50c9")
+		)
+		(pin "DIR_F2" output
+			(at 232.41 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b91865f-59e4-4cb4-8c38-7a4ee5d9172c")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
@@ -694,8 +1578,8 @@
 		)
 	)
 	(sheet
-		(at 105.41 118.11)
-		(size 71.12 30.48)
+		(at 105.41 86.36)
+		(size 62.23 46.99)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -706,7 +1590,7 @@
 		)
 		(uuid "de3f6686-136b-4e72-913e-b14f46f4b1e0")
 		(property "Sheetname" "Monitor"
-			(at 105.41 117.3984 0)
+			(at 105.41 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +1599,7 @@
 			)
 		)
 		(property "Sheetfile" "monitor.kicad_sch"
-			(at 105.41 149.1746 0)
+			(at 105.41 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +1608,7 @@
 			)
 		)
 		(pin "HIGH_SIDE_ENABLE" input
-			(at 176.53 120.65 0)
+			(at 167.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +1618,7 @@
 			(uuid "c52b47fe-ab99-49a8-ae68-bc53fbe2cfa3")
 		)
 		(pin "CAN1_MONITOR_RX" input
-			(at 176.53 123.19 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +1628,7 @@
 			(uuid "228d4000-8495-4199-af6e-327942c540f9")
 		)
 		(pin "CAN1_MONITOR_TX" output
-			(at 176.53 125.73 0)
+			(at 167.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,35 +1637,85 @@
 			)
 			(uuid "b1578536-6dbf-493a-9dc1-cb6e855bff94")
 		)
-		(pin "ACC1_FILTERED" input
-			(at 176.53 130.81 0)
+		(pin "ACC" input
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e645ff12-ffcc-41b9-b928-ea49525dbe5e")
+			(uuid "50c9ace0-97ef-4d1b-973b-309b2dd4fc00")
 		)
-		(pin "ACC2_FILTERED" input
-			(at 176.53 133.35 0)
+		(pin "BRAKE" input
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5c3792f8-b622-4ea7-80a4-5019d817f6a7")
+			(uuid "95f3d034-e75e-4bab-b718-3c238f0b27fd")
 		)
-		(pin "ENABLE_RESET" output
-			(at 176.53 137.16 0)
+		(pin "DIR_F" input
+			(at 167.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "73d6cfe0-b139-498f-adb4-ae8d83149179")
+			(uuid "7f4adab7-2e97-4dcd-95d3-24a085ddfda4")
+		)
+		(pin "DIR_R" input
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2714f6e1-c189-4792-aa56-7d0b17a8b8c3")
+		)
+		(pin "HIGH_SIDE_SENSE" input
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b509067c-0c35-40cf-8e93-d89513f7ddd3")
+		)
+		(pin "CRANK_SENSE" input
+			(at 105.41 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26671154-572b-424f-a611-be29605bcc6f")
+		)
+		(pin "MONITOR_UART_TX" output
+			(at 105.41 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76942a08-c506-41a6-b17f-aa04713a4aa8")
+		)
+		(pin "MONITOR_UART_RX" input
+			(at 105.41 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f19a439f-d042-4bb7-a83f-910759f0caa1")
 		)
 		(instances
 			(project "aphid-vehicle-controller"
@@ -793,7 +1727,7 @@
 	)
 	(sheet
 		(at 185.42 62.23)
-		(size 38.1 10.16)
+		(size 38.1 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -803,7 +1737,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f79f1a8c-3c84-4b1a-ba21-3536d6ae0676")
-		(property "Sheetname" "Analog"
+		(property "Sheetname" "Accelerator"
 			(at 185.42 61.5184 0)
 			(effects
 				(font
@@ -812,8 +1746,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "analog.kicad_sch"
-			(at 185.42 72.9746 0)
+		(property "Sheetfile" "accelerator.kicad_sch"
+			(at 185.42 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,26 +1794,6 @@
 				(justify right)
 			)
 			(uuid "7f000d0a-c6e0-49a8-9239-6149e104ad24")
-		)
-		(pin "IGNITION_FILTERED" output
-			(at 185.42 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9b0709f5-a51d-4b68-9087-c4c451e5d4fd")
-		)
-		(pin "IGNITION" input
-			(at 223.52 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7b9729d2-e137-4ba2-92d9-bfb3ad897cd7")
 		)
 		(instances
 			(project "aphid-vehicle-controller"

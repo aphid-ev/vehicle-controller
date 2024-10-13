@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a4982f51-3cd8-4c65-9865-55033ee95397")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "DIR_R2"
+		(shape input)
+		(at 194.31 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55e66c92-ef49-475a-bc99-b7fed0e7830c")
+	)
+	(hierarchical_label "DIR_R1_FILTERED"
+		(shape input)
+		(at 194.31 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d06eda9-64c1-4722-a177-3a53d36b656c")
+	)
+	(hierarchical_label "DIR_R2_FILTERED"
+		(shape input)
+		(at 194.31 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7a77485-4bf7-485d-b29a-43f64c529967")
+	)
+	(hierarchical_label "DIR_F1"
+		(shape input)
+		(at 194.31 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8d227c0-8117-48b6-8beb-42c4438c7e81")
+	)
+	(hierarchical_label "DIR_F1_FILTERED"
+		(shape input)
+		(at 194.31 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7222508-0986-48cc-a58a-32f41e30a55e")
+	)
+	(hierarchical_label "DIR_F2"
+		(shape input)
+		(at 194.31 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0867823-03ef-490c-95d7-c3b7fd6d72a9")
+	)
+	(hierarchical_label "DIR_F2_FILTERED"
+		(shape input)
+		(at 194.31 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec8a3d77-cb15-41d2-89ee-7340321025ff")
+	)
+	(hierarchical_label "DIR_R1"
+		(shape input)
+		(at 194.31 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4a22cf7-f4cd-4f92-8da7-971f9dc79aaa")
+	)
+)

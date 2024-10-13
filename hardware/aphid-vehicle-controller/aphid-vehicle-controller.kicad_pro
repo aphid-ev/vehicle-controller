@@ -476,6 +476,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -611,15 +612,19 @@
     ],
     [
       "f79f1a8c-3c84-4b1a-ba21-3536d6ae0676",
-      "Analog"
+      "Accelerator"
     ],
     [
       "3d287df9-d378-446a-9a45-9deed77b9c83",
-      "Digital"
+      "High Side Out"
     ],
     [
-      "3d5505e7-965b-4b41-aec9-80a54b9e19ae",
-      "Reset"
+      "845adc02-d0ea-41ad-a231-509f2381900a",
+      "Brake"
+    ],
+    [
+      "1558ac19-bf4c-43bb-8356-d3897a5fecba",
+      "Direction"
     ]
   ],
   "text_variables": {}

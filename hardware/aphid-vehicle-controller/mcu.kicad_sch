@@ -2425,9 +2425,9 @@
 		)
 		(uuid "d4cdd177-3cd2-419c-8b85-24dd2715228f")
 	)
-	(hierarchical_label "ACC2_FILTERED"
+	(hierarchical_label "DIR_R"
 		(shape input)
-		(at 190.5 138.43 0)
+		(at 182.88 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2435,7 +2435,55 @@
 			)
 			(justify left)
 		)
-		(uuid "1f850556-d9eb-4042-942b-d47b95c9f8fb")
+		(uuid "1d57899b-4be4-45b9-bbe2-56dca89def15")
+	)
+	(hierarchical_label "MONITOR_UART_TX"
+		(shape output)
+		(at 45.72 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4703106b-8d0d-4514-a432-143d834633bf")
+	)
+	(hierarchical_label "MONITOR_UART_RX"
+		(shape input)
+		(at 45.72 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c769586-ec74-4383-967f-bffcfa34113d")
+	)
+	(hierarchical_label "BRAKE"
+		(shape input)
+		(at 182.88 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "605bb77e-2644-4bff-98da-be5d6771a51d")
+	)
+	(hierarchical_label "CRANK_SENSE"
+		(shape input)
+		(at 195.58 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65940b48-52ec-4478-b1fd-cd8b22c6b874")
 	)
 	(hierarchical_label "POWER_KEEPALIVE"
 		(shape output)
@@ -2448,6 +2496,18 @@
 			(justify left)
 		)
 		(uuid "65b86f0c-b170-44ae-a192-54c1373d46f1")
+	)
+	(hierarchical_label "DIR_F"
+		(shape input)
+		(at 182.88 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70128f65-8edf-42c0-99b5-d9c948502194")
 	)
 	(hierarchical_label "CAN1_TX"
 		(shape output)
@@ -2473,18 +2533,6 @@
 		)
 		(uuid "801668c5-978d-4a92-998a-5b8a71ae886e")
 	)
-	(hierarchical_label "UPPER_CONTACTOR_ENABLE"
-		(shape output)
-		(at 201.93 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "829f7d64-5c4f-4322-b8db-9ddeda0f00c0")
-	)
 	(hierarchical_label "CAN1_RX"
 		(shape input)
 		(at 220.98 87.63 0)
@@ -2509,7 +2557,7 @@
 		)
 		(uuid "bc2cc4ec-efcc-4a23-ab01-738ced205e2d")
 	)
-	(hierarchical_label "ACC1_FILTERED"
+	(hierarchical_label "ACC"
 		(shape input)
 		(at 176.53 91.44 0)
 		(fields_autoplaced yes)
@@ -2521,9 +2569,9 @@
 		)
 		(uuid "d05d40b8-e797-4f63-97d3-5475114e634d")
 	)
-	(hierarchical_label "LOWER_CONTACTOR_ENABLE"
-		(shape output)
-		(at 201.93 116.84 0)
+	(hierarchical_label "IGNITION_SENSE"
+		(shape input)
+		(at 215.9 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2531,11 +2579,11 @@
 			)
 			(justify left)
 		)
-		(uuid "db554c8d-7b32-4719-91fb-ad33502e34ef")
+		(uuid "d91f1cc5-9c55-463c-829d-6a0462b0ee30")
 	)
-	(hierarchical_label "PRECHARGE_ENABLE"
-		(shape output)
-		(at 203.2 109.22 0)
+	(hierarchical_label "VIN_SENSE"
+		(shape input)
+		(at 215.9 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2543,7 +2591,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ff14c6ea-2112-48d1-a775-2f99e91240f3")
+		(uuid "e3bfe4bb-df6e-4416-89e1-599c09b2a7e7")
 	)
 	(symbol
 		(lib_id "power:GND")

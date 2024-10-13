@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "03ab6faa-b2d6-4ce8-8aaa-8fc7eafab92b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BRAKE2_FILTERED"
+		(shape output)
+		(at 137.16 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ce4e5da-8d4a-4434-9f2e-7d27a15e36d5")
+	)
+	(hierarchical_label "BRAKE1_FILTERED"
+		(shape output)
+		(at 135.89 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "797941b2-6c83-4213-9bef-9bc79e741fe9")
+	)
+	(hierarchical_label "BRAKE1"
+		(shape input)
+		(at 165.1 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8244e1b0-5393-43c0-88fa-2900ec69a82a")
+	)
+	(hierarchical_label "BRAKE2"
+		(shape input)
+		(at 165.1 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdb45809-502d-4239-bc21-2f79701ca2ff")
+	)
+)

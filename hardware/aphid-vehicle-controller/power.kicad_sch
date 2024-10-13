@@ -3443,7 +3443,7 @@
 		)
 		(uuid "feeabe82-6e41-4b3f-a9f3-9a8fc3c83c67")
 	)
-	(text "5V Supply to the accelerator \npedal Hall effect sensors"
+	(text "5V Supply to the accelerator \npedal Hall effect sensors and\ndirection selector switches"
 		(exclude_from_sim no)
 		(at 244.602 76.962 0)
 		(effects
@@ -3547,7 +3547,7 @@
 		)
 		(uuid "b47c1993-b99f-4572-837f-68ca157bb487")
 	)
-	(hierarchical_label "ACC_5V"
+	(hierarchical_label "EXT_5V"
 		(shape output)
 		(at 233.68 71.12 0)
 		(fields_autoplaced yes)
@@ -3558,6 +3558,30 @@
 			(justify left)
 		)
 		(uuid "c8a40a89-1cf0-4ce4-868d-99e5ec12783a")
+	)
+	(hierarchical_label "CRANK"
+		(shape input)
+		(at 73.66 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2bcd9e0-08b6-4095-baba-26c05ab70a23")
+	)
+	(hierarchical_label "CRANK_SENSE"
+		(shape input)
+		(at 116.84 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0906a46-2e7e-448e-a980-8c516b26b945")
 	)
 	(hierarchical_label "IGNITION_SENSE"
 		(shape output)
