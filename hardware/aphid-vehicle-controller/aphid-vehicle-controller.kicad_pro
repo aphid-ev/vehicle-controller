@@ -612,19 +612,11 @@
     ],
     [
       "f79f1a8c-3c84-4b1a-ba21-3536d6ae0676",
-      "Accelerator"
+      "Inputs"
     ],
     [
       "3d287df9-d378-446a-9a45-9deed77b9c83",
       "High Side Out"
-    ],
-    [
-      "845adc02-d0ea-41ad-a231-509f2381900a",
-      "Brake"
-    ],
-    [
-      "1558ac19-bf4c-43bb-8356-d3897a5fecba",
-      "Direction"
     ]
   ],
   "text_variables": {}

@@ -651,12 +651,6 @@
 		)
 	)
 	(junction
-		(at 137.16 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fd88451-ab17-4125-934b-d6e5c52bb1a1")
-	)
-	(junction
 		(at 139.7 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -664,23 +658,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 137.16 78.74)
+			(xy 25.4 25.4) (xy 25.4 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3546e03b-1b06-4590-b6f2-501054fea06b")
-	)
-	(wire
-		(pts
-			(xy 132.08 76.2) (xy 137.16 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b9784a-645a-4600-9ba3-8c725de80ff9")
+		(uuid "3ee01b91-26fc-4bc7-8086-f1e60bf79160")
 	)
 	(wire
 		(pts
@@ -704,6 +688,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 35.56) (xy 25.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ab7dc7-147e-4fb2-b8d1-aeeb7dcd8164")
+	)
+	(wire
+		(pts
 			(xy 137.16 101.6) (xy 139.7 101.6)
 		)
 		(stroke
@@ -714,23 +708,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 149.86 91.44)
+			(xy 149.86 88.9) (xy 149.86 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e76a20d-a0b5-4abb-83b5-d32194df2e4d")
-	)
-	(wire
-		(pts
-			(xy 132.08 76.2) (xy 132.08 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "868205b2-4e85-4c8e-932b-0ec11afee3ea")
 	)
 	(wire
 		(pts
@@ -744,6 +728,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 25.4) (xy 63.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b755f7f2-bf85-40a0-acdf-1242633abd19")
+	)
+	(wire
+		(pts
 			(xy 139.7 96.52) (xy 142.24 96.52)
 		)
 		(stroke
@@ -751,6 +745,16 @@
 			(type default)
 		)
 		(uuid "bbdedc1a-9757-43d4-9a19-468491a295b0")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6af123-b04a-442b-9fb8-9488e28b4613")
 	)
 	(wire
 		(pts
@@ -764,13 +768,43 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 149.86 76.2)
+			(xy 50.8 35.56) (xy 50.8 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7e722dc-411d-4293-a585-61b47449801a")
+		(uuid "d8e058d0-f348-4273-9ac5-3e9c04b6699a")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 38.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a1f2ad-8290-454f-b20f-7d4d32f8f977")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e757d634-c932-4ca7-b6bc-6d08c018bfc5")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bee10e-46fc-4a93-8617-b78e14089f98")
 	)
 	(hierarchical_label "HIGH_SIDE_SENSE"
 		(shape output)
@@ -810,6 +844,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07130a04-6072-4ff3-ba06-209de6302d30")
+		(property "Reference" "#PWR0138"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c07cbc81-1b09-4b9e-abad-c018649e9331")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 139.7 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -818,7 +918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a419ab4-57c3-42db-958a-e6b0bd5d98cf")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0143"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -868,7 +968,275 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR059")
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 25.4 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a723eb5-e08e-40fa-96df-2cbe2f3f746a")
+		(property "Reference" "C55"
+			(at 29.21 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 29.21 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 26.3652 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ded36c5-d91d-41ba-80a3-018bd32b5b9a")
+		)
+		(pin "1"
+			(uuid "0be25e3c-0177-43b8-ba9a-7cad31c83027")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0bf74c-3877-45ca-bc77-82009c54425b")
+		(property "Reference" "#PWR0134"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 25.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a453766-e8e9-49d5-af13-1cb9069e3a13")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 50.8 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6405c5d5-76fd-4fd1-aec7-cca05bbce1f1")
+		(property "Reference" "#PWR0136"
+			(at 50.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 50.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b832141b-b4fe-408e-8304-d3236b9be614")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 63.5 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b32c248-6873-4051-ad20-a5dda4fbe1c7")
+		(property "Reference" "#PWR0137"
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 63.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aca49bb7-1ab3-483b-bac2-8f0ea4991649")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -952,16 +1320,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 132.08 73.66 0)
+		(at 38.1 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1af4c93-1757-4c2c-ac74-f44826964f87")
-		(property "Reference" "#PWR072"
-			(at 132.08 77.47 0)
+		(uuid "826ac27d-71b3-4517-a608-0d62667abdf9")
+		(property "Reference" "#PWR0135"
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +1338,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 132.08 68.58 0)
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +1346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 73.66 0)
+			(at 38.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +1355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 73.66 0)
+			(at 38.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +1364,209 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 132.08 73.66 0)
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0027226e-7921-4220-8df8-334b839fa5af")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9994d662-fd98-4bc0-9d71-cd3b33383851")
+		(property "Reference" "#PWR0140"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07e72981-7aa9-4ac0-8525-c969df9242d2")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf9752b-d7b4-4672-b0d4-827988483d50")
+		(property "Reference" "C57"
+			(at 54.61 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.61 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 51.7652 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b98f4ab3-fa98-4d15-b584-b5f8368de464")
+		)
+		(pin "1"
+			(uuid "3332c572-dcf5-4003-a39b-7c65c4c61c15")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1af4c93-1757-4c2c-ac74-f44826964f87")
+		(property "Reference" "#PWR0142"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1580,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR072")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -1018,16 +1588,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 86.36 0)
+		(at 63.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d6b39298-3138-44a0-8492-db039ad9b77f")
-		(property "Reference" "#PWR058"
-			(at 137.16 92.71 0)
+		(uuid "c5e933eb-4fc0-48c5-9aba-fdcdfad463df")
+		(property "Reference" "#PWR0141"
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 91.44 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 86.36 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 86.36 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1632,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 86.36 0)
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "809157e5-b83d-4fcf-a2d9-77a0b0afe67d")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b39298-3138-44a0-8492-db039ad9b77f")
+		(property "Reference" "#PWR0139"
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1712,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR058")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -1092,7 +1728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb3afaf-7a66-47dd-923d-82783c28d012")
-		(property "Reference" "R7"
+		(property "Reference" "R35"
 			(at 142.24 106.6799 0)
 			(effects
 				(font
@@ -1110,7 +1746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 107.95 90)
 			(effects
 				(font
@@ -1146,7 +1782,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "R7")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1154,16 +1790,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 82.55 0)
+		(at 63.5 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f214eb96-9089-4517-88ed-d40d2b32d9f0")
-		(property "Reference" "C24"
-			(at 140.97 81.2799 0)
+		(uuid "dfdef734-f904-42e2-995b-9c1512c9c4a1")
+		(property "Reference" "C58"
+			(at 67.31 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1808,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 140.97 83.8199 0)
+			(at 67.31 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,8 +1816,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 138.1252 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 64.4652 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 82.55 0)
+			(at 63.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1835,77 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 82.55 0)
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8cdd56d-3224-4b30-ab91-faa331001de7")
+		)
+		(pin "1"
+			(uuid "a2d6cb41-ba82-41ad-af63-5d58de14a1e8")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 38.1 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f214eb96-9089-4517-88ed-d40d2b32d9f0")
+		(property "Reference" "C56"
+			(at 41.91 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 41.91 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.0652 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1922,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "C24")
+					(reference "C56")
 					(unit 1)
 				)
 			)
