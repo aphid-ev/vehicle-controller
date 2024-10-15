@@ -141,7 +141,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "Device:L_Iron"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -156,8 +156,8 @@
 					)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "L_Iron"
+				(at 2.794 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -182,7 +182,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
+			(property "Description" "Inductor with iron core"
 				(at 0 0 0)
 				(effects
 					(font
@@ -209,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_0_1"
+			(symbol "L_Iron_0_1"
 				(arc
 					(start 0 -2.54)
 					(mid 0.6323 -1.905)
@@ -226,6 +226,30 @@
 					(start 0 -1.27)
 					(mid 0.6323 -0.635)
 					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.54) (xy 1.524 2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -259,7 +283,7 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "L_Iron_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2093,75 +2117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 173.99 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "793e2b96-5189-4482-bd73-c862d607414e")
-		(property "Reference" "L2"
-			(at 173.99 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 173.99 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ece118d7-f623-4ec2-a915-4e8446df6c0c")
-		)
-		(pin "1"
-			(uuid "e758a0a5-6e85-4b1e-b87b-1ed2371eee73")
-		)
-		(instances
-			(project "aphid-vehicle-controller"
-				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 82.55 0)
 		(unit 1)
@@ -2569,6 +2524,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Iron")
+		(at 173.99 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0aca6ab-58b0-424a-b58b-2dd09487edbe")
+		(property "Reference" "L2"
+			(at 173.99 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 173.99 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRN8040TA"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SRN8040-2R2Y"
+			(at 173.99 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07cfbdb3-e32c-483b-ab28-e499c30c406a")
+		)
+		(pin "2"
+			(uuid "579dc21c-d045-4601-873e-19de435a0719")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 88.9 0)
 		(mirror y)
@@ -2763,75 +2795,6 @@
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 173.99 76.2 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e258f6cd-801b-4a37-8b88-195c054d46bf")
-		(property "Reference" "L1"
-			(at 173.99 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 173.99 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99fb7f9b-0e1c-4d2d-a9f5-a302c5276a65")
-		)
-		(pin "1"
-			(uuid "b96972bb-3820-44c6-beb7-9a46dcb6fff2")
-		)
-		(instances
-			(project "aphid-vehicle-controller"
-				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3034,6 +2997,83 @@
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
 					(reference "J2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Iron")
+		(at 173.99 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4c2b8f6-f424-4841-9e1b-e15a6547a17c")
+		(property "Reference" "L1"
+			(at 173.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 173.99 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRN8040TA"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SRN8040-2R2Y"
+			(at 173.99 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae21f31d-a0e8-4e0f-8a5b-5208eb96236d")
+		)
+		(pin "2"
+			(uuid "bd84fee1-d089-45fa-a6c5-ff74bd29a67c")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/ad52b18e-06fb-41b6-9fa9-858fb103ce03"
+					(reference "L1")
+					(unit 1)
 				)
 			)
 		)

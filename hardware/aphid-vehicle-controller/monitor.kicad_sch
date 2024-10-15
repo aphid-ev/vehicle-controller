@@ -3481,7 +3481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14027f0b-8d5a-4fab-a266-e2c7c085ce55")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 53.34 30.4799 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -3751,7 +3751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a30c7c1-d717-4533-8524-1a1788085a2e")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 24.13 30.4799 0)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -3821,7 +3821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36cd446d-405f-4169-805a-5781570b7d7b")
-		(property "Reference" "C46"
+		(property "Reference" "C48"
 			(at 82.55 160.0199 0)
 			(effects
 				(font
@@ -3875,7 +3875,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C46")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b5e71b-996d-4337-bcc3-1c63d8b01adf")
-		(property "Reference" "C43"
+		(property "Reference" "C45"
 			(at 80.01 30.4799 0)
 			(effects
 				(font
@@ -4251,7 +4251,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C43")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4267,7 +4267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd54e4e-da31-4448-af22-e1ddbc77817a")
-		(property "Reference" "C42"
+		(property "Reference" "C44"
 			(at 68.58 30.4799 0)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -4539,7 +4539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf666ca-b5f6-426c-b228-8917cc6081e2")
-		(property "Reference" "C45"
+		(property "Reference" "C47"
 			(at 52.07 71.1199 0)
 			(effects
 				(font
@@ -4593,7 +4593,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884364a2-cd17-486c-bef8-c476ca12a8d4")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 157.48 179.3874 90)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 		(instances
 			(project ""
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4877,7 +4877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93918eed-5985-42f8-8d46-6118c0dad24b")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 38.1 71.1199 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5079,7 +5079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42e078b-9315-48ef-b981-33f0726b44fc")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 38.1 30.4799 0)
 			(effects
 				(font
@@ -5133,7 +5133,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/de3f6686-136b-4e72-913e-b14f46f4b1e0"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)

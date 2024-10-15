@@ -984,7 +984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a723eb5-e08e-40fa-96df-2cbe2f3f746a")
-		(property "Reference" "C55"
+		(property "Reference" "C57"
 			(at 29.21 30.4799 0)
 			(effects
 				(font
@@ -1038,7 +1038,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "C55")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -1460,7 +1460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcf9752b-d7b4-4672-b0d4-827988483d50")
-		(property "Reference" "C57"
+		(property "Reference" "C59"
 			(at 54.61 30.4799 0)
 			(effects
 				(font
@@ -1514,7 +1514,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "C57")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfdef734-f904-42e2-995b-9c1512c9c4a1")
-		(property "Reference" "C58"
+		(property "Reference" "C60"
 			(at 67.31 30.4799 0)
 			(effects
 				(font
@@ -1852,7 +1852,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "C58")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -1868,7 +1868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f214eb96-9089-4517-88ed-d40d2b32d9f0")
-		(property "Reference" "C56"
+		(property "Reference" "C58"
 			(at 41.91 30.4799 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "C56")
+					(reference "C58")
 					(unit 1)
 				)
 			)
