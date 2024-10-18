@@ -68,13 +68,23 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -42.5 -8)
+		(end 42.5 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d1d89c5-6803-4299-9606-591b4d9c0500")
+	)
+	(fp_line
 		(start -42.5 96.5)
 		(end -42.5 -8)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "e2c65857-d1d5-40c3-af4a-6538ac6525f3")
 	)
 	(fp_line
@@ -84,7 +94,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "b199b6a4-b841-4fc2-bbf7-8532cc8efa99")
 	)
 	(fp_line
@@ -94,7 +104,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "67a31f4b-6404-4dc9-8e3f-71292c5896c9")
 	)
 	(fp_line
@@ -104,28 +114,18 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Edge.Cuts")
 		(uuid "56f38740-ca3c-411c-a24c-e6ad043082ed")
 	)
 	(fp_line
-		(start 42.5 -8.08)
+		(start 42.5 -8)
 		(end 42.5 96.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "bdd9a69a-0ed3-425a-b359-b66ffca3cb8b")
-	)
-	(fp_line
-		(start -42.5 -8)
-		(end 42.5 -8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
 		(layer "Edge.Cuts")
-		(uuid "9d1d89c5-6803-4299-9606-591b4d9c0500")
+		(uuid "bdd9a69a-0ed3-425a-b359-b66ffca3cb8b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -9.5 0)
