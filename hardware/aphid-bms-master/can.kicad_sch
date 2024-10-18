@@ -147,7 +147,142 @@
 				)
 			)
 		)
-		(symbol "Device:L_Ferrite_Coupled_1243"
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Coupled_1423"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -161,7 +296,7 @@
 					)
 				)
 			)
-			(property "Value" "L_Ferrite_Coupled_1243"
+			(property "Value" "L_Coupled_1423"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -187,7 +322,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Coupled inductor with ferrite core"
+			(property "Description" "Coupled inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -214,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_Ferrite_Coupled_1243_0_1"
+			(symbol "L_Coupled_1423_0_1"
 				(circle
 					(center -3.048 -1.27)
 					(radius 0.254)
@@ -299,30 +434,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 -0.508) (xy -2.286 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 0.508) (xy -2.286 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -2.032) (xy -2.54 -2.54)
 					)
 					(stroke
@@ -336,126 +447,6 @@
 				(polyline
 					(pts
 						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.508) (xy -1.27 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -1.27 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.508) (xy -0.254 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0.508) (xy -0.254 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0.508) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.508) (xy 1.778 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.508) (xy 1.778 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -0.508) (xy 2.794 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0.508) (xy 2.794 0.508)
 					)
 					(stroke
 						(width 0)
@@ -550,7 +541,7 @@
 					)
 				)
 			)
-			(symbol "L_Ferrite_Coupled_1243_1_1"
+			(symbol "L_Coupled_1423_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -570,7 +561,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -606,7 +597,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -1452,36 +1443,70 @@
 		)
 	)
 	(junction
-		(at 130.81 64.77)
+		(at 135.89 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ec14832-8e62-4334-8994-6e9222232270")
+		(uuid "06193bd4-809a-49b1-a8c5-f2aa9c4ea343")
 	)
 	(junction
-		(at 135.89 59.69)
+		(at 163.83 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e357e85f-95ef-4b2b-a252-5ff438e58318")
+		(uuid "0dae26ae-2b4e-48fb-8383-9a701e9592e0")
+	)
+	(junction
+		(at 163.83 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "214ea1aa-687c-4b01-af29-03b06c331c6f")
+	)
+	(junction
+		(at 130.81 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25932ee8-c890-486a-84d2-59b9455ebcdc")
+	)
+	(junction
+		(at 160.02 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95def82c-891c-4e10-91fd-22535a00ea62")
+	)
+	(junction
+		(at 147.32 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcee5a19-b21d-440d-99b7-6c0531783edf")
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 138.43 64.77)
+			(xy 128.27 59.69) (xy 130.81 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06fae3b1-0138-45e1-96b7-a1e44ca88fb4")
+		(uuid "007ccc0f-77b2-47c0-b4ca-974634f2d656")
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 133.35 80.01)
+			(xy 147.32 59.69) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d1ec20a-3ce1-4d46-85c2-bd1fa4340939")
+		(uuid "13155bfd-1bab-46a8-8f09-eec5ece2bb55")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b75a14-6510-483b-95c8-933bd69b6465")
 	)
 	(wire
 		(pts
@@ -1495,23 +1520,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 130.81 64.77)
+			(xy 133.35 77.47) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "242b0ddf-3eec-4473-b38d-5119076e4c29")
-	)
-	(wire
-		(pts
-			(xy 148.59 64.77) (xy 151.13 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26ae72b3-00e4-4fbc-9b86-52665704701d")
+		(uuid "23ba2a27-6dcf-4e34-90f5-7750a89e01b2")
 	)
 	(wire
 		(pts
@@ -1545,23 +1560,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 138.43 59.69)
+			(xy 160.02 64.77) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a46aafb-6097-4830-be5d-cdeddabfdbb6")
+		(uuid "310d14b8-2d54-4961-9cd9-4663df4f5017")
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 130.81 67.31)
+			(xy 135.89 64.77) (xy 135.89 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4216a0dc-31b4-4196-b07e-6d9d76ee8daa")
+		(uuid "3c2a9dcf-a25b-4744-8eef-5e1d08d2cf7f")
 	)
 	(wire
 		(pts
@@ -1575,13 +1590,83 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 59.69) (xy 151.13 59.69)
+			(xy 147.32 59.69) (xy 163.83 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b68669b-31ce-4467-8ffd-dbfdbdba22ae")
+		(uuid "51a43a45-81b8-4b54-9536-d4a22207dd75")
+	)
+	(wire
+		(pts
+			(xy 184.15 59.69) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536b754a-7928-4c2d-8e3a-bf6f7a17358a")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d807d78-fe42-47d6-a7bb-c7fdbd44a570")
+	)
+	(wire
+		(pts
+			(xy 130.81 59.69) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60dfaf7b-b62c-441b-9e2e-f4e682aaaa24")
+	)
+	(wire
+		(pts
+			(xy 130.81 59.69) (xy 147.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6126ae5a-4c0d-4320-8848-ff61281729f3")
+	)
+	(wire
+		(pts
+			(xy 184.15 64.77) (xy 191.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6433b74b-aab0-4c81-bbca-1e564baaddcd")
+	)
+	(wire
+		(pts
+			(xy 160.02 64.77) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae3e8a1-6c5f-4bdd-a79d-6c81f2ac2334")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7229c7b4-5063-4304-86cc-7159871d0427")
 	)
 	(wire
 		(pts
@@ -1605,6 +1690,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 59.69) (xy 173.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87861e3c-9c5c-4bff-895b-277d613cab17")
+	)
+	(wire
+		(pts
 			(xy 115.57 72.39) (xy 115.57 80.01)
 		)
 		(stroke
@@ -1612,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "9699ba07-d79c-4d1f-a0d1-635436dcb9f6")
+	)
+	(wire
+		(pts
+			(xy 163.83 64.77) (xy 173.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fb26f1-4231-4b88-a53f-f031b95c8e07")
 	)
 	(wire
 		(pts
@@ -1625,13 +1730,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 135.89 59.69)
+			(xy 160.02 74.93) (xy 160.02 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd6ca1ef-0c08-400f-b0e3-c8431aeff38e")
+		(uuid "c4409684-cfbe-4636-ae3c-eafa28867855")
 	)
 	(wire
 		(pts
@@ -1645,16 +1750,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 135.89 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f04276-0b5b-4ddf-8f39-4742a6729205")
-	)
-	(wire
-		(pts
 			(xy 205.74 38.1) (xy 205.74 40.64)
 		)
 		(stroke
@@ -1665,7 +1760,7 @@
 	)
 	(hierarchical_label "CAN_HIGH"
 		(shape passive)
-		(at 151.13 59.69 0)
+		(at 191.77 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1677,7 +1772,7 @@
 	)
 	(hierarchical_label "CAN_LOW"
 		(shape passive)
-		(at 151.13 64.77 0)
+		(at 191.77 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1724,17 +1819,35 @@
 		(uuid "d7faf118-c41c-4f56-bde5-ad76f1c373d3")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 80.01 0)
+		(lib_id "Device:C")
+		(at 147.32 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a18aa52-2728-4f03-9121-59501d7ac706")
-		(property "Reference" "#PWR031"
-			(at 133.35 86.36 0)
+		(uuid "088764d8-ed57-4a8c-b822-200681a4ff4d")
+		(property "Reference" "C39"
+			(at 151.13 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33 pF"
+			(at 151.13 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.2852 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,16 +1855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 133.35 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 80.01 0)
+		(property "Datasheet" "~"
+			(at 147.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,17 +1864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 80.01 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,12 +1874,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "27f063fd-89d6-44f1-9e41-6aaadd0108c0")
+			(uuid "049abaa5-124f-4854-96b8-d3f33e0799c9")
+		)
+		(pin "2"
+			(uuid "e7850dd4-f961-4e30-8af5-95ba5ff19edd")
 		)
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR031")
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b9e541d-fe60-4a8f-bf47-d6cc4e90ffef")
+		(property "Reference" "#PWR085"
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1752b5be-af6d-437e-8453-0396f50f425e")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1799,7 +1964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb436ac-30cc-413e-89ec-c033b853003a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 205.74 31.75 0)
 			(effects
 				(font
@@ -1849,7 +2014,77 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR024")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656e2f9d-8f6a-4271-8181-a2f3c485b98c")
+		(property "Reference" "C38"
+			(at 166.37 60.9662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33 pF"
+			(at 166.37 63.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62eb8181-17a5-4fd8-903d-2baa3e3a2609")
+		)
+		(pin "1"
+			(uuid "f551b673-c693-4b7c-9de3-80d4fdc60a3c")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1926,80 +2161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:NUP2105L")
-		(at 133.35 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70baa3f3-4573-4981-a2dd-69cecacc3aca")
-		(property "Reference" "D2"
-			(at 139.7 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NUP2105L"
-			(at 139.7 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 139.065 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
-			(at 136.525 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30aedd7d-e4cb-47a8-8f11-2aff3379439f")
-		)
-		(pin "3"
-			(uuid "f0efeab0-93eb-433e-aaa5-1add0ebb028c")
-		)
-		(pin "1"
-			(uuid "1f91ec4f-a269-4bc0-89d3-c73360753638")
-		)
-		(instances
-			(project ""
-				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 219.71 40.64 0)
 		(unit 1)
@@ -2009,7 +2170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72818207-f2de-42c6-8470-f3886b8f4aaf")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -2059,7 +2220,143 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR027")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7334be2f-3386-49a6-9779-e3755db33143")
+		(property "Reference" "#PWR033"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd337b2a-779f-4b49-836f-b82dd3f31c0f")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab4334e-3029-4014-aaf7-faebebae61de")
+		(property "Reference" "C40"
+			(at 163.83 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33 pF"
+			(at 163.83 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 160.9852 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c68df2ab-f0a0-4a46-8f1b-78c07881015e")
+		)
+		(pin "2"
+			(uuid "da68d79c-4a49-4111-99d1-dc36f6837e63")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968fcb78-b6c1-4e6c-9461-6877888a831e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -2125,7 +2422,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2141,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9718a9fb-0fd9-4248-87a0-0ccf57bbf693")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -2191,7 +2488,81 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR025")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Coupled_1423")
+		(at 179.07 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d1500cf-f8c6-4adb-90df-a128c027eeb0")
+		(property "Reference" "L1"
+			(at 178.689 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACT1210D"
+			(at 178.689 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "aphid:ACT1210D"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Coupled inductor"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a4f3476-3ba1-457c-b2b5-253e8988ad50")
+		)
+		(pin "4"
+			(uuid "849fbcc5-618c-48f6-b182-48a6d24e7544")
+		)
+		(pin "1"
+			(uuid "b39228bf-0f0a-4f02-87e1-4dcf254048a4")
+		)
+		(pin "3"
+			(uuid "af4ce5c7-cc33-411e-919b-0c1f98411bae")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eec6c90-06b9-45a5-97ba-d2f7b7865aac")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 100.33 53.34 0)
 			(effects
 				(font
@@ -2257,7 +2628,80 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR028")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:NUP2105L")
+		(at 133.35 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3c515df-a7ab-4660-90d8-01f36ccef0f0")
+		(property "Reference" "D2"
+			(at 127.762 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUP2105L"
+			(at 135.128 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 139.065 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+			(at 136.525 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a75cc1e5-cca7-4f62-b95e-e719c73885ea")
+		)
+		(pin "3"
+			(uuid "c7b49755-a17a-4d52-958f-337f23358af2")
+		)
+		(pin "2"
+			(uuid "4a550e3e-76e5-4a76-843e-2769b9b79696")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2273,7 +2717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6cae222-d8c4-4606-8e5f-8bce12fc9f6e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 115.57 53.34 0)
 			(effects
 				(font
@@ -2323,7 +2767,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2420,6 +2864,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 147.32 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd168570-bd24-4d89-bef9-e7f3fd886f57")
+		(property "Reference" "#PWR084"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc7eff97-ce43-4f37-90bb-a6f1150d676b")
+		)
+		(instances
+			(project "aphid-bms-master"
+				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 205.74 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2428,7 +2938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb85826-4169-400f-a5ea-e01de8785a5f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 205.74 46.99 0)
 			(effects
 				(font
@@ -2478,81 +2988,7 @@
 		(instances
 			(project "aphid-bms-master"
 				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite_Coupled_1243")
-		(at 143.51 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fab320fb-3eb0-472f-94c0-774eae12c959")
-		(property "Reference" "L1"
-			(at 143.256 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DLW43SH"
-			(at 143.256 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "aphid:DLW43SH"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Coupled inductor with ferrite core"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a5bcd39b-78e1-4dac-8629-734aea774e59")
-		)
-		(pin "4"
-			(uuid "2295b430-f98b-473f-8933-6de6fd571532")
-		)
-		(pin "2"
-			(uuid "cbbdfc6e-4dea-48ef-a1cb-d698060842dd")
-		)
-		(pin "1"
-			(uuid "54f6484f-a2fc-4fd5-bd94-9b7ebbf433fe")
-		)
-		(instances
-			(project ""
-				(path "/3fe4475e-7771-42d3-a39b-bb1b5919e27e/78f9c8b5-fcde-4a2a-85bc-c1ce42b84c26"
-					(reference "L1")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
