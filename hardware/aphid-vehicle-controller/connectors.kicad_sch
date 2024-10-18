@@ -2189,12 +2189,12 @@
 	(symbol
 		(lib_id "aphid:ModICE_ME-MX_24")
 		(at 137.16 74.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97644c72-c6b7-4240-93ae-3a20c6164211")
 		(property "Reference" "J2"
 			(at 137.16 60.96 0)
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Footprint" "aphid:ModICE_ME-MX_24"
-			(at 136.906 87.63 0)
+			(at 137.414 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,12 +2870,12 @@
 	(symbol
 		(lib_id "aphid:ModICE_ME-MX_24")
 		(at 137.16 109.22 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4474322-20d1-4b15-9bf2-53e8436f10a8")
 		(property "Reference" "J2"
 			(at 137.16 95.25 0)
@@ -2894,7 +2894,7 @@
 			)
 		)
 		(property "Footprint" "aphid:ModICE_ME-MX_24"
-			(at 136.906 121.92 0)
+			(at 137.414 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
