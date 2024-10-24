@@ -2401,16 +2401,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 153.67) (xy 265.43 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36695f77-b555-4ae5-954a-91f0625f2756")
-	)
-	(wire
-		(pts
 			(xy 255.27 36.83) (xy 255.27 39.37)
 		)
 		(stroke
@@ -4610,72 +4600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 265.43 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2019c4d8-ad2a-4b56-939f-8706babec296")
-		(property "Reference" "#PWR063"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 265.43 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.43 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86e200b0-5380-41bb-84b2-a87a2c91dc38")
-		)
-		(instances
-			(project "aphid-vehicle-controller"
-				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/98781d90-1f08-466f-be3c-fdb64160be3c"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 77.47 40.64 0)
 		(unit 1)
@@ -6505,72 +6429,6 @@
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/98781d90-1f08-466f-be3c-fdb64160be3c"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 265.43 156.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e579ac-5a7a-49e6-9b30-66622a79e8a2")
-		(property "Reference" "#FLG04"
-			(at 265.43 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 265.43 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 265.43 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "694fae17-0b16-4676-a1da-cc7caf5d7550")
-		)
-		(instances
-			(project "aphid-vehicle-controller"
-				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/98781d90-1f08-466f-be3c-fdb64160be3c"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

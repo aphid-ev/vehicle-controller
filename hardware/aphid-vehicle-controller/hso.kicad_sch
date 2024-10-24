@@ -916,7 +916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07130a04-6072-4ff3-ba06-209de6302d30")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0141"
 			(at 165.1 118.11 0)
 			(effects
 				(font
@@ -966,7 +966,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR0144")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -982,7 +982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a419ab4-57c3-42db-958a-e6b0bd5d98cf")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0145"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -1032,7 +1032,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR0149")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -1194,7 +1194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9994d662-fd98-4bc0-9d71-cd3b33383851")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0143"
 			(at 200.66 118.11 0)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR0146")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -1329,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1af4c93-1757-4c2c-ac74-f44826964f87")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0140"
 			(at 149.86 92.71 0)
 			(effects
 				(font
@@ -1379,7 +1379,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR0148")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -1395,7 +1395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5e933eb-4fc0-48c5-9aba-fdcdfad463df")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0144"
 			(at 218.44 118.11 0)
 			(effects
 				(font
@@ -1445,7 +1445,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR0147")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -1461,7 +1461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b39298-3138-44a0-8492-db039ad9b77f")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0142"
 			(at 182.88 118.11 0)
 			(effects
 				(font
@@ -1511,7 +1511,7 @@
 		(instances
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/3d287df9-d378-446a-9a45-9deed77b9c83"
-					(reference "#PWR0145")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)

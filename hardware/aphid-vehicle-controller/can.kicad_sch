@@ -1992,6 +1992,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 40.64) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da16f39-44b0-461a-96ba-65b5b54f7646")
+	)
+	(wire
+		(pts
 			(xy 158.75 82.55) (xy 182.88 82.55)
 		)
 		(stroke
@@ -2049,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "b1d13e2e-07cf-4736-b0a3-8b7379d899bf")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 125.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfefdb8e-85f4-41c4-a895-96bdc5d72c0b")
 	)
 	(wire
 		(pts
@@ -3659,6 +3679,72 @@
 			(project "aphid-vehicle-controller"
 				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/0e4d64b0-bbfe-4bfe-a5a9-80bf6f07c4ac"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e77517a-34a9-4cef-84ef-d750995109d1")
+		(property "Reference" "#PWR063"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84c6b69-bf1c-4b84-8ea4-c61487708a34")
+		)
+		(instances
+			(project "aphid-vehicle-controller"
+				(path "/1bdad060-e59b-443f-afdb-9aa678a43546/0e4d64b0-bbfe-4bfe-a5a9-80bf6f07c4ac"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
