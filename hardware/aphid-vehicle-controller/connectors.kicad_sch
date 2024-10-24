@@ -1538,13 +1538,13 @@
 	)
 	(hierarchical_label "IGNITION"
 		(shape output)
-		(at 144.78 102.87 0)
+		(at 129.54 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3620e9a2-7be8-4eb2-9e4c-29eb7b40df38")
 	)
@@ -1610,13 +1610,13 @@
 	)
 	(hierarchical_label "CRANK"
 		(shape output)
-		(at 129.54 102.87 180)
+		(at 144.78 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8ce86d7e-7877-445d-a498-1a061836b342")
 	)
