@@ -1079,10 +1079,10 @@
 		(uuid "7fc3c063-3109-4e81-916a-69257dff9217")
 	)
 	(junction
-		(at 144.78 115.57)
+		(at 144.78 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84e6ca05-1a01-4fbd-8079-e4c91f68bb4b")
+		(uuid "f5b4c233-3258-495e-b2c7-e0e278301602")
 	)
 	(wire
 		(pts
@@ -1376,6 +1376,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 78.74) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af08a800-a808-448f-9cb9-d4a5aec91dbf")
+	)
+	(wire
+		(pts
 			(xy 180.34 76.2) (xy 177.8 76.2)
 		)
 		(stroke
@@ -1466,16 +1476,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 144.78 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a6acc9-f410-42ae-b4ed-dfe25824b3d4")
-	)
-	(wire
-		(pts
 			(xy 142.24 71.12) (xy 144.78 71.12)
 		)
 		(stroke
@@ -1516,7 +1516,7 @@
 	)
 	(text "12V ENABLE?"
 		(exclude_from_sim no)
-		(at 153.67 113.03 0)
+		(at 154.94 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1670,7 +1670,7 @@
 	)
 	(hierarchical_label "HIGH_SIDE_DRIVE"
 		(shape input)
-		(at 144.78 78.74 0)
+		(at 144.78 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
