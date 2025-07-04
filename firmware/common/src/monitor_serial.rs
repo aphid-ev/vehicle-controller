@@ -35,12 +35,8 @@ where
     }
 
     pub fn send(&mut self, msg: &MonitorToMain) -> Result<(), postcard::Error> {
-        let bytes: Vec<u8, N> = postcard::to_vec(msg)?;
+        let _bytes: Vec<u8, N> = postcard::to_vec(msg)?;
 
-        for byte in bytes {
-            nb::block!(self.tx.write(buf))
-        }
-
-        Ok(())
+        todo!();
     }
 }
